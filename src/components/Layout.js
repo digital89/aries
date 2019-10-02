@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Footer from './Footer'
 import Navbar from './Navbar'
