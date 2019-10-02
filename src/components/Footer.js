@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Footer = () => (
-  <footer className="footer">
+  <Fragment>
 
-    Footer
+    <footer className="footer">
+      <div className="content has-text-centered">
+        <p>
+          Footer here.
+        </p>
+      </div>
+    </footer>
 
     <style jsx>
       {`
       `}
     </style>
-  </footer>
+  </Fragment>
 )
 
 export default Footer

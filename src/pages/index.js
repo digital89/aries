@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button'
 
 import Layout from '../components/Layout'
 
@@ -9,10 +8,7 @@ const Home = () => {
 
       Home page
 
-      <div>
-        Button is here:
-        <Button variant="primary" size="sm">Primary</Button>
-      </div>
+      <button className="button">Button</button>
 
       <style jsx>
         {`
