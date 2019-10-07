@@ -1,23 +1,12 @@
 {
   "facebook": "https://www.facebook.com/ariesairflo",
-  "about_title": "About title here...",
-  "about_subtitle": "About subtitle here...",
-  "about_description": "About description here...",
-  "phone": "(403) 786-8380",
-  "events_past_title": "Past Events",
-  "instagram": "https://www.instagram.com/ariesairflo",
+  "phoneVisual": "(403) 342-7870",
+  "phoneRaw": "+14033427870",
+  "fax": "(403) 346-7840",
   "address": {
-    "street": "5010 50 St",
-    "city": "Lacombe",
+    "street": "48 Burnt Lake Crescent",
+    "city": "Red Deer County",
     "province": "AB",
-    "postcode": "T4L 1X9"
-  },
-  "events_upcoming_subtitle": "Check out our upcoming events! Everyone is welcome to stop by and enjoy some great times.",
-  "contact_subtitle": "We'd love to hear from you!",
-  "menu_subtitle": "Our Plant Based menu offers raw, non-GMO, gluten free, organic, ethically sourced and locally grown options.",
-  "home_subtitle": "Our Plant Based menu offers raw, non-GMO, gluten free, organic, ethically sourced and locally grown options.",
-  "menu_title": "Our Menu",
-  "contact_title": "Contact Us",
-  "events_upcoming_title": "Upcoming Events",
-  "events_past_subtitle": ""
+    "postcode": "T4S 0K6"
+  }
 }

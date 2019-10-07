@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-const Footer = () => (
+export default () => (
   <Fragment>
 
     <footer className="footer">
@@ -17,5 +17,3 @@ const Footer = () => (
     </style>
   </Fragment>
 )
-
-export default Footer

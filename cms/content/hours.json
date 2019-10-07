@@ -1,15 +1,15 @@
 {
   "hours": [
     {
-      "days": "Mon-Fri",
-      "times": "8am-7pm"
+      "days": "Mon-Thu",
+      "times": "8am-5pm"
     },
     {
-      "days": "Sat",
-      "times": "10am-7pm"
+      "days": "Fri",
+      "times": "8am-4:30pm"
     },
     {
-      "days": "Sun",
+      "days": "Sat-Sun",
       "times": "Closed"
     }
   ]

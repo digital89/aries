@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
-import 'bulma/css/bulma.min.css'
 
+import '../styles/main.scss'
 import styles from '../styles'
 import Footer from './Footer'
+import Level from './Level'
 import Navbar from './Navbar'
 
-const Layout = ({ children }) => (
+export default ({ children }) => (
   <Fragment>
     <Helmet>
       <html lang="en" />
@@ -22,6 +23,8 @@ const Layout = ({ children }) => (
 
       <Navbar />
 
+      {/* <Level /> */}
+
       {children}
 
       <Footer />
@@ -32,7 +35,6 @@ const Layout = ({ children }) => (
       {`
         html, body {
           box-sizing: border-box;
-          font-family: ${styles.fontFamily};
           font-size: 16px;
           margin: 0;
           padding: 0;
@@ -40,7 +42,6 @@ const Layout = ({ children }) => (
 
         button, input, textarea {
           font-size: 1rem;
-          font-family: ${styles.fontFamily};
         }
 
         *, *:before, *:after {
@@ -49,7 +50,13 @@ const Layout = ({ children }) => (
       `}
     </style>
 
+    <style jsx global>
+      {`
+        .navbar-item-active {
+          color: ${styles.colors.primary};
+        }
+      `}
+    </style>
+
   </Fragment>
 )
-
-export default Layout

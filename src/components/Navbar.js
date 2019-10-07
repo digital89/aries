@@ -9,8 +9,7 @@ export default () => (
       <div className="navbar-brand">
 
         <Link className="navbar-item" to="/">
-          {/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" /> */}
-          Aries Airflo
+          <img src="images/logo.png" alt="Aires Airflo Logo" />
         </Link>
 
         <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -24,11 +23,15 @@ export default () => (
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
 
-          <Link className="navbar-item" to="/">Home</Link>
+          <Link className="navbar-item" to="/" activeClassName="navbar-item-active">Home</Link>
 
-          <Link className="navbar-item" to="/">Products & Services</Link>
+          <Link className="navbar-item" to="/about" activeClassName="navbar-item-active">About Us</Link>
 
-          <Link className="navbar-item" to="/contact">Contact</Link>
+          <Link className="navbar-item" to="/services" activeClassName="navbar-item-active">Services</Link>
+
+          <Link className="navbar-item" to="/products" activeClassName="navbar-item-active">Products</Link>
+
+          <Link className="navbar-item" to="/contact" activeClassName="navbar-item-active">Contact</Link>
 
           <div className="navbar-item has-dropdown is-hoverable">
             <a className="navbar-link">
@@ -37,17 +40,17 @@ export default () => (
 
             <div className="navbar-dropdown">
               <a className="navbar-item">
-                About
+                One
               </a>
               <a className="navbar-item">
-                Jobs
+                Two
               </a>
               <a className="navbar-item">
-                Contact
+                Three
               </a>
               <hr className="navbar-divider" />
               <a className="navbar-item">
-                Report an issue
+                Four
               </a>
             </div>
           </div>
@@ -57,10 +60,7 @@ export default () => (
           <div className="navbar-item">
             <div className="buttons">
               <a className="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a className="button is-light">
-                Log in
+                <strong>Call Us</strong>
               </a>
             </div>
           </div>

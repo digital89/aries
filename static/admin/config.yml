@@ -2,7 +2,53 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: static/images/uploads
+public_folder: /images/uploads
 
 display_url: https://www.ariesairflo.com
+
+collections:
+  - name: "content"
+    label: "Content"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "hours"
+        label: "Hours"
+        file: "cms/content/hours.json"
+        fields:
+          - name: "hours"
+            label: "Hours"
+            widget: "list"
+            fields:
+              - { name: "days", label: "Day(s)", widget: "string" }
+              - { name: "times", label: "Time(s)", widget: "string" }
+
+      - name: "general"
+        label: "General"
+        file: "cms/content/general.json"
+        fields:
+          - { name: "phone", label: "Phone Number", widget: "string" }
+          - name: "address"
+            label: "Address"
+            widget: "object"
+            fields:
+              - { name: "street", label: "Street Address", widget: "string" }
+              - { name: "city", label: "City", widget: "string" }
+              - { name: "province", label: "Province", widget: "string" }
+              - { name: "postcode", label: "Postal Code", widget: "string" }
+          - { name: "facebook", label: "Facebook URL", widget: "string" }
+          - { name: "instagram", label: "Instagram URL", widget: "string" }
+          - { name: "home_subtitle", label: "Home Subtitle", widget: "text" }
+          - { name: "menu_title", label: "Menu Title", widget: "string" }
+          - { name: "menu_subtitle", label: "Menu Subtitle", widget: "text" }
+          - { name: "events_upcoming_title", label: "Upcoming Events Title", widget: "string" }
+          - { name: "events_upcoming_subtitle", label: "Upcoming Events Subtitle", required: false, widget: "text" }
+          - { name: "events_past_title", label: "Past Events Title", widget: "string" }
+          - { name: "events_past_subtitle", label: "Past Events Subtitle", required: false, widget: "text" }
+          - { name: "about_title", label: "About Title", widget: "string" }
+          - { name: "about_subtitle", label: "About Subtitle", widget: "text" }
+          - { name: "about_description", label: "About Description", widget: "text" }
+          - { name: "contact_title", label: "Contact Title", widget: "string" }
+          - { name: "contact_subtitle", label: "Contact Subtitle", widget: "text" }
