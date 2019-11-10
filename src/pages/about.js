@@ -1,31 +1,99 @@
 import React from 'react'
 
+import {
+  experience,
+  mission,
+  people,
+  peopleContent,
+  peopleHeading,
+  purpose,
+  title,
+  topContent,
+  topHeading,
+} from '../../cms/pages/about'
 import Layout from '../components/Layout'
+import Title from '../components/Title'
 
 export default () => {
   return (
     <Layout>
+
+      <Title title={title} inverted />
 
       <section className="section">
         <div className="container">
 
           <div className="content">
 
-            <h1>Serving Red Deer & Central Alberta for over 30 years</h1>
+            <h2>{topHeading}</h2>
 
-            <p>Aries Airflo Heating & Air Conditioning is a full service HVAC company that provides services in residential new construction, commercial construction, service and replacements.</p>
-
-            <p>In 2004, two Red Deer Lennox dealers who have been serving Central Alberta since 1980 - Aries Mechanical Systems and Airflo Heating & Air Conditioning were merged to form Aries Airflo Heating & Air Conditioning. </p>
-
-            <p>Locally owned and operated by Linda and Terry Codd, Aries Airflo continues to proudly serve Central Alberta from their 12,000 square foot facility in Burnt Lake Industrial Park.</p>
+            <div dangerouslySetInnerHTML={{ __html: topContent }} />
 
           </div>
 
         </div>
       </section>
 
+      <section className="section section-dark">
+        <div className="container">
+          <div className="content">
+
+            <h3>Purpose</h3>
+
+            <p>{purpose}</p>
+
+            <h3>Mission</h3>
+
+            <p>{mission}</p>
+
+            <h3>Experience</h3>
+
+            <p>{experience}</p>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+
+          <div className="content">
+
+            <h3>{peopleHeading}</h3>
+
+            <p>{peopleContent}</p>
+
+          </div>
+
+          <div className="columns is-multiline is-centered">
+            {people.map(({ image, name, position, email }) => (
+              <div className="column is-narrow" key={name}>
+
+                <div className="card column-card">
+                  <div className="card-image">
+                    <figure className="image">
+                      <img src={image} alt={name} />
+                    </figure>
+                  </div>
+                  <div className="card-content">
+                    <div><strong>{name}</strong></div>
+                    <div>{position}</div>
+                    <a href={`mailto:${email}`}>{email}</a>
+                  </div>
+                </div>
+
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <style jsx>
         {`
+          .column-card {
+            margin: 0 auto;
+            max-width: 300px;
+          }
         `}
       </style>
 

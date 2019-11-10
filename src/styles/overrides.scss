@@ -1,14 +1,22 @@
-$family-sans-serif: Verdana, Geneva, sans-serif;
+// $family-sans-serif: Verdana, Geneva, sans-serif;
+$family-sans-serif: 'Roboto Slab', serif;
 
 $phone: 500px;
 $tablet: 750px;
 $desktop: 900px;
 $widescreen: 1050px;
-$fullhd: 1200px;
+$fullhd: 1050px;
 
-$primary: #891519;
+$primary: #144C8D;
 $link: $primary;
-$info: #151989;
-$success: #158985;
-$warning: #894B15;
-$danger: #CB1F25;
+$info: $primary;
+$success: #4c8d14;
+$warning: #FFA355;
+$danger: #D7281E;
+
+// $primary: #891519;
+// $link: $primary;
+// $info: #151989;
+// $success: #198915;
+// $warning: #894B15;
+// $danger: #CB1F25;

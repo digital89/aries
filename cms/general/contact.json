@@ -1,12 +1,13 @@
 {
-  "facebook": "https://www.facebook.com/ariesairflo",
-  "phoneVisual": "(403) 342-7870",
+  "phone": "(403) 342-7870",
   "phoneRaw": "+14033427870",
   "fax": "(403) 346-7840",
+  "email": "info@ariesairflo.com",
   "address": {
     "street": "48 Burnt Lake Crescent",
     "city": "Red Deer County",
     "province": "AB",
     "postcode": "T4S 0K6"
-  }
+  },
+  "facebook": "https://www.facebook.com/ariesairflo"
 }

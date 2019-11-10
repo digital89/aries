@@ -5,18 +5,19 @@ backend:
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
-display_url: https://www.ariesairflo.com
+display_url: https://ariesairflo.com
+logo_url: https://ariesairflo.com/images/logo.svg
 
 collections:
-  - name: "content"
-    label: "Content"
+  - name: "general"
+    label: "General"
     delete: false
     editor:
       preview: false
     files:
       - name: "hours"
         label: "Hours"
-        file: "cms/content/hours.json"
+        file: "cms/general/hours.json"
         fields:
           - name: "hours"
             label: "Hours"
@@ -25,11 +26,12 @@ collections:
               - { name: "days", label: "Day(s)", widget: "string" }
               - { name: "times", label: "Time(s)", widget: "string" }
 
-      - name: "general"
-        label: "General"
-        file: "cms/content/general.json"
+      - name: "contact"
+        label: "Contact"
+        file: "cms/general/contact.json"
         fields:
           - { name: "phone", label: "Phone Number", widget: "string" }
+          - { name: "phoneRaw", label: "Phone Number (Raw)", widget: "string" }
           - name: "address"
             label: "Address"
             widget: "object"
@@ -39,16 +41,124 @@ collections:
               - { name: "province", label: "Province", widget: "string" }
               - { name: "postcode", label: "Postal Code", widget: "string" }
           - { name: "facebook", label: "Facebook URL", widget: "string" }
-          - { name: "instagram", label: "Instagram URL", widget: "string" }
-          - { name: "home_subtitle", label: "Home Subtitle", widget: "text" }
-          - { name: "menu_title", label: "Menu Title", widget: "string" }
-          - { name: "menu_subtitle", label: "Menu Subtitle", widget: "text" }
-          - { name: "events_upcoming_title", label: "Upcoming Events Title", widget: "string" }
-          - { name: "events_upcoming_subtitle", label: "Upcoming Events Subtitle", required: false, widget: "text" }
-          - { name: "events_past_title", label: "Past Events Title", widget: "string" }
-          - { name: "events_past_subtitle", label: "Past Events Subtitle", required: false, widget: "text" }
-          - { name: "about_title", label: "About Title", widget: "string" }
-          - { name: "about_subtitle", label: "About Subtitle", widget: "text" }
-          - { name: "about_description", label: "About Description", widget: "text" }
-          - { name: "contact_title", label: "Contact Title", widget: "string" }
-          - { name: "contact_subtitle", label: "Contact Subtitle", widget: "text" }
+
+  - name: "pages"
+    label: "Pages"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "home"
+        label: "Home"
+        file: "cms/pages/home.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "subtitle", label: "Subtitle", widget: "string" }
+
+      - name: "about"
+        label: "About"
+        file: "cms/pages/about.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "topHeading", label: "Top Heading", widget: "string" }
+          - { name: "topContent", label: "Top Content", widget: "text" }
+          - { name: "purpose", label: "Purposee", widget: "text" }
+          - { name: "mission", label: "Mission", widget: "text" }
+          - { name: "experience", label: "Experience", widget: "text" }
+          - { name: "peopleHeading", label: "People Heading", widget: "string" }
+          - { name: "peopleContent", label: "People Content", widget: "text" }
+          - name: "people"
+            label: "People List"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "position", label: "Position", widget: "string" }
+              - { name: "email", label: "Email", widget: "string" }
+              - { name: "image", label: "Image", widget: "image" }
+
+      - name: "services"
+        label: "Services"
+        file: "cms/pages/services.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "heading", label: "Heading", widget: "string" }
+          - name: "items"
+            label: "Services List"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - name: "images"
+                label: "Images"
+                widget: "list"
+                fields:
+                  - { name: "title", label: "Title", widget: "string" }
+                  - { name: "subtitle", label: "Subtitle", widget: "string" }
+                  - { name: "image", label: "Image", widget: "image" }
+
+      - name: "products"
+        label: "Products"
+        file: "cms/pages/products.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "heading", label: "Heading", widget: "string" }
+          - name: "categories"
+            label: "Product Categories"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Name", widget: "string" }
+              - name: "categoryItems"
+                label: "Product Category Items"
+                widget: "list"
+                fields:
+                  - { name: "title", label: "Title", widget: "text" }
+                  - { name: "description", label: "Description", widget: "text" }
+                  - { name: "image", label: "Image", widget: "image" }
+                  - { name: "link", label: "Link", widget: "string" }
+
+      - name: "contact"
+        label: "Contact"
+        file: "cms/pages/contact.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "subtitle", label: "Subtitle", widget: "string" }
+
+      - name: "testimonials"
+        label: "Testimonials"
+        file: "cms/pages/testimonials.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "heading", label: "Heading", widget: "string" }
+          - name: "items"
+            label: "Testimonials List"
+            widget: "list"
+            fields:
+              - { name: "customer", label: "Customer", widget: "string" }
+              - { name: "content", label: "Content", widget: "text" }
+
+      - name: "review"
+        label: "Review"
+        file: "cms/pages/review.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "heading", label: "Heading", widget: "string" }
+          - name: "items"
+            label: "Review Site List"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Review Site Name", widget: "string" }
+              - { name: "link", label: "Review Site Link", widget: "string" }
+
+      - name: "warranty"
+        label: "Warranty"
+        file: "cms/pages/warranty.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "heading", label: "Heading", widget: "string" }
+          - { name: "content", label: "Heading", widget: "text" }
+          - name: "items"
+            label: "Warranty List"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Warranty Name", widget: "string" }
+              - { name: "link", label: "Warranty Link", widget: "string" }
+              - { name: "image", label: "Warranty Image", widget: "image" }

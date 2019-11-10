@@ -1,0 +1,67 @@
+{
+  "title": "Our Services",
+  "heading": "These are our services",
+  "items": [
+    {
+      "title": "Commercial HVAC Solutions",
+      "content": "<p>From Design to Completion, Aries Airflo Heating & Air Conditioning can handle all of your commercial projects.  Whether you need a unit replaced on your existing commercial building or need HVAC design and installation on a new project, we are here to help.  We have the experience and expertise to complete the job on time and on budget, with the quality you expect.  You can depend on us.</p><p>Design Build Services - Call us to design your HVAC system. Our knowledgeable staff will meet your needs and code requirements and produce engineer approved drawings.</p><p>Engineered Projects - Already have engineered drawings? Call us for a competitive quote.</p>",
+      "images": [
+        {
+          "title": "Copps Building",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_copps_building.jpg"
+        },
+        {
+          "title": "Trican Building",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_trican_building.jpg"
+        },
+        {
+          "title": "Keyag Kubota",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_keyag_kubota.jpg"
+        },
+        {
+          "title": "Watts Building",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_watts_building.jpg"
+        },
+        {
+          "title": "Fort Garry ",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_fort_garry.jpg"
+        },
+        {
+          "title": "Trail Appliances",
+          "subtitle": "Red Deer County, AB",
+          "image": "/images/uploads/services_commercial_trail_appliances.jpg"
+        },
+        {
+          "title": "Eagle Builders",
+          "subtitle": "Blackfalds, AB",
+          "image": "/images/uploads/services_commercial_eagle_builders.jpg"
+        }
+      ]
+    },
+    {
+      "title": "New Homes",
+      "content": "<p>Aries Airflo is very active in the home building industry in Red Deer and Central Alberta. We are proud to be the HVAC supplier for several homebuilders in the area. Builders choose Aries Airflo for our quality workmanship and knowledge in the heating, ventilation and air conditioning industry.</p><p>We offer a wide range of products from the most efficient and reliable brands, and multiple financing options. Whether you are looking for basic heating, air conditioning or a complete home comfort system, our qualified staff will ensure you get exactly what you need for your new home.</p><p>Aries Airflo is very active in the home building industry in Red Deer and Central Alberta. We are proud to be the HVAC supplier for several homebuilders in the area. Builders choose Aries Airflo for our quality workmanship and knowledge in the heating, ventilation and air conditioning industry.</p><p>We offer a wide range of products from the most efficient and reliable brands, and multiple financing options. Whether you are looking for basic heating, air conditioning or a complete home comfort system, our qualified staff will ensure you get exactly what you need for your new home.</p>"
+    },
+    {
+      "title": "24/7 Emergency Service",
+      "content": "Furnaces, air-conditioners, humidifiers, HRV's - they all can break down and stop working at some point in time. Should this happen to you, Aries Airflo's team of highly trained and qualified service technicians are ready to assist you. We are just a phone call away and offer 24-hour emergency service!"
+    },
+    {
+      "title": "Annual Maintenance",
+      "content": "Annual maintenance will improve the efficiency and prolong the life of your equipment. It is also required to maintain your manufacturer's warranty. Maintain your equipment by having our technicians perform a Precision Tune Up."
+    },
+    {
+      "title": "Maintenance Contracts",
+      "content": "Keep your units running efficiently and maintain your warranty with our maintenance contracts."
+    },
+    {
+      "title": "Precision Tune-up",
+      "content": "Keep your equipment running smoothly with a precision tune up from Aries Airflo."
+    }
+  ]
+}

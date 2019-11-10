@@ -1,2 +1,14 @@
 @import './overrides.scss';
 @import '../../node_modules/bulma/bulma.sass';
+
+html, body {
+  font-size: 14px;
+
+  @include tablet {
+    font-size: 16px;
+  }
+
+  @include desktop {
+    font-size: 18px;
+  }
+}

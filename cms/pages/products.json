@@ -1,0 +1,51 @@
+{
+  "title": "Our Products",
+  "heading": "These are our products",
+  "categories": [
+    {
+      "name": "Furnaces",
+      "items": [
+        {
+          "title": "Lennox SLP98V\nMODULATING GAS FURNACE",
+          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98.7\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_furnaces_Lennox_SLP98V.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/slp98v"
+        },
+        {
+          "title": "Goodman GMVM97\nMODULATING GAS FURNACE ​",
+          "description": "High-efficiency, multi speed gas furnace\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_furnaces_Goodman_GMVM97.jpg",
+          "link": "http://www.goodmanmfg.com/pdfviewer.aspx?pdfurl=docs/librariesprovider6/default-document-library/cb-gmvm97496c290022fa6258827eff0500754798.pdf?sfvrsn=94964bc0_2"
+        },
+        {
+          "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE",
+          "description": "Two-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "image": "/images/uploads/x.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/el296v"
+        },
+        {
+          "title": "Goodman GMVC96\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
+          "description": "High-efficiency, multi speed gas furnace\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "image": "/images/uploads/x.jpg",
+          "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/96-afue-gmvc96"
+        }
+      ]
+    },
+    {
+      "name": "Air Conditioners",
+      "items": []
+    },
+    {
+      "name": "Indoor Air Quality",
+      "items": []
+    },
+    {
+      "name": "Garage Heaters",
+      "items": []
+    },
+    {
+      "name": "Thermostats",
+      "items": []
+    }
+  ]
+}

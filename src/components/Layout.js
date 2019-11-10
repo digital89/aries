@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet'
 
 import '../styles/main.scss'
 import styles from '../styles'
+import CallToAction from './CallToAction'
 import Footer from './Footer'
-import Level from './Level'
 import Navbar from './Navbar'
 
 export default ({ children }) => (
@@ -17,25 +17,21 @@ export default ({ children }) => (
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://ariesairflo.com/" />
       <link rel="icon" href="/images/icon.png" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
     </Helmet>
 
-    <div className="container">
+    <Navbar />
 
-      <Navbar />
+    {children}
 
-      {/* <Level /> */}
+    <Footer />
 
-      {children}
-
-      <Footer />
-
-    </div>
+    <CallToAction />
 
     <style jsx global>
       {`
         html, body {
           box-sizing: border-box;
-          font-size: 16px;
           margin: 0;
           padding: 0;
         }
@@ -54,6 +50,20 @@ export default ({ children }) => (
       {`
         .navbar-item-active {
           color: ${styles.colors.primary};
+        }
+
+        .section-dark {
+          background-color: ${styles.colors.primary};
+          color: white;
+        }
+
+        .section-dark h1,
+        .section-dark h2,
+        .section-dark h3,
+        .section-dark h4,
+        .section-dark h5,
+        .section-dark h6 {
+          color: white;
         }
       `}
     </style>
