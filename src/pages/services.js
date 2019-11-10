@@ -50,7 +50,7 @@ export default () => {
                       <div
                         className={classNames(
                           'column',
-                          global.window.innerWidth >= styles.sizes.phone ? 'is-one-fifth' : 'is-one-third',
+                          global.window && global.window.innerWidth >= styles.sizes.phone ? 'is-one-fifth' : 'is-one-third',
                         )}
                         key={serviceItemImageTitle}
                       >
