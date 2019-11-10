@@ -15,7 +15,7 @@ export default () => {
         <div className="navbar-brand">
 
           <Link className="navbar-item" to="/">
-            <img src="images/logo-long.png" alt="Aires Airflo Logo" />
+            <img src="/images/logo-long.png" alt="Aires Airflo Logo" />
           </Link>
 
 

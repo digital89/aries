@@ -199,7 +199,7 @@ class EmailForm extends PureComponent {
               {loading && (
                 <span className="loader-container">
                   <span>&nbsp;&nbsp;</span>
-                  <img className="loader-icon rotate" src="images/loader.svg" alt="Loading Icon" />
+                  <img className="loader-icon rotate" src="/images/loader.svg" alt="Loading Icon" />
                 </span>
 
               )}

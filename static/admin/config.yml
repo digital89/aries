@@ -6,7 +6,7 @@ media_folder: static/images/uploads
 public_folder: /images/uploads
 
 display_url: https://ariesairflo.com
-logo_url: https://ariesairflo.com/images/logo.svg
+logo_url: https://ariesairflo.com/images/logo.png
 
 collections:
   - name: "general"

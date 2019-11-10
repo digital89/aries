@@ -9,7 +9,7 @@ export default () => (
     <a href={`tel:${phoneRaw}`}>
       <div className="cta">
         <div className="cta-item">
-          <img className="cta-icon" src="images/phone.svg" alt="Call" />
+          <img className="cta-icon" src="/images/phone.svg" alt="Call" />
           <span>&nbsp;</span>
           <span><b>Call Us!</b></span>
         </div>

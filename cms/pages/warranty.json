@@ -6,12 +6,12 @@
     {
       "name": "Lennox",
       "link": "https://www.lennoxwarranty.com/html/LNXWelcome.htm",
-      "image": "images/uploads/brand_lennox.png"
+      "image": "/images/uploads/brand_lennox.png"
     },
     {
       "name": "Goodman",
       "link": "http://www.goodmanmfg.com/product-registration",
-      "image": "images/uploads/brand_goodman.png"
+      "image": "/images/uploads/brand_goodman.png"
     }
   ]
 }
