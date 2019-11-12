@@ -209,7 +209,7 @@ export default () => {
             white-space: pre-line;
           }
           .tidbit-content {
-            font-size: 0.85rem;
+            font-size: 0.86rem;
           }
         `}
       </style>
