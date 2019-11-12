@@ -15,13 +15,13 @@ export default () => {
         <div className="navbar-brand">
 
           <Link className="navbar-item" to="/">
-            <img src="/images/logo_new_long.png" alt="Aires Airflo Logo" />
+            <img src="/images/logo.png" alt="Aires Airflo Logo" />
           </Link>
 
 
           <div className="navbar-brand-container is-hidden-desktop">
             <Link to="/contact">
-              <button className="button is-danger is-small is-outlined" type="button">
+              <button className="button is-info is-small is-outlined" type="button">
                 <strong>Contact Us</strong>
               </button>
             </Link>
@@ -107,7 +107,7 @@ export default () => {
           <div className="navbar-end is-hidden-touch">
             <div className="navbar-item">
               <Link to="/contact">
-                <button className="button is-danger" type="button">
+                <button className="button is-info" type="button">
                   <strong>Contact Us</strong>
                 </button>
               </Link>

@@ -10,6 +10,7 @@ import {
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 import styles from '../styles'
+import { useSmallImage } from '../utilities'
 
 const Macy = typeof window !== 'undefined' ? require('macy') : null
 
@@ -55,10 +56,6 @@ class Gallery extends PureComponent {
     this.setState({
       selectedImage: null,
     })
-  }
-
-  useSmallImage = (path) => {
-    return path.replace('/uploads/', '/uploads_small/')
   }
 
   render () {
@@ -117,7 +114,7 @@ class Gallery extends PureComponent {
                   >
                     <img
                       className="gallery-item-image"
-                      src={this.useSmallImage(galleryItemImageSrc)}
+                      src={useSmallImage(galleryItemImageSrc)}
                       alt={galleryItemTitle}
                     />
                   </div>

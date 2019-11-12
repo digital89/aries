@@ -8,7 +8,7 @@ export default () => (
 
         <div>
           <div className="footer-image-container">
-            <img className="footer-image" src="/images/logo_new_long.png" alt="Aries Airflo Logo" />
+            <img className="footer-image" src="/images/logo.png" alt="Aries Airflo Logo" />
           </div>
         </div>
 

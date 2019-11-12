@@ -34,7 +34,7 @@ export default () => {
                       <img
                         className="warranty-item-image"
                         src={warrantyItemImageSrc}
-                        alt={`${warrantyItemName} Logo`}
+                        alt={warrantyItemName}
                       />
                     </div>
                     <footer className="card-footer">

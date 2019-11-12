@@ -9,6 +9,7 @@ import {
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 import styles from '../styles'
+import { useSmallImage } from '../utilities'
 
 export default () => {
   return (
@@ -54,7 +55,7 @@ export default () => {
                         )}
                         key={serviceItemImageTitle}
                       >
-                        <img src={serviceItemImageSrc} alt={serviceItemImageTitle} />
+                        <img src={useSmallImage(serviceItemImageSrc)} alt={serviceItemImageTitle} />
                         <div className="service-item-title"><b>{serviceItemImageTitle}</b></div>
                         <div className="service-item-subtitle">{serviceItemImageSubtitle}</div>
                       </div>

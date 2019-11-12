@@ -34,7 +34,6 @@ class Layout extends PureComponent {
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://ariesairflo.com/" />
           {/* <link rel="icon" href="/images/icon.png" /> */}
-          <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
         </Helmet>
 
         <Navbar />

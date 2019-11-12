@@ -16,6 +16,7 @@ import {
 } from '../../cms/pages/home'
 import Layout from '../components/Layout'
 import styles from '../styles'
+import { useSmallImage } from '../utilities'
 
 export default () => {
   return (
@@ -104,7 +105,7 @@ export default () => {
                   style={{ display: 'flex', alignItems: 'center' }}
                 >
                   <a href={brandItemLink} target="_blank" rel="noopener noreferrer">
-                    <img src={brandItemImageSrc} alt={brandItemName} />
+                    <img src={useSmallImage(brandItemImageSrc)} alt={brandItemName} />
                   </a>
                 </div>
               ))}

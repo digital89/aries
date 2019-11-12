@@ -23,7 +23,7 @@ export default () => (
       {`
         .cta {
           align-items: center;
-          background-color: ${styles.colors.danger};
+          background-color: ${styles.colors.info};
           border-radius: 10px;
           bottom: 20px;
           box-shadow: 0 0 10px #777;

@@ -8,3 +8,7 @@ export const initGoogleAnalytics = (id) => {
   ga('send', 'pageview');
   /* eslint-enable */
 }
+
+export const useSmallImage = (path) => {
+  return path.replace('/uploads/', '/uploads_small/')
+}
