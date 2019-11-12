@@ -1,72 +1,93 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, PureComponent } from 'react'
 import { Helmet } from 'react-helmet'
 
+import {
+  description,
+  title,
+} from '../../cms/general/site'
+import { ENV_IS_PROD } from '../constants'
 import '../styles/main.scss'
 import styles from '../styles'
+import { initGoogleAnalytics } from '../utilities'
 import CallToAction from './CallToAction'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-export default ({ children }) => (
-  <Fragment>
-    <Helmet>
-      <html lang="en" />
-      <title>Aries Airflo - Residential & Commercial Furnace, HVAC, and Cooling Services in Red Deer, Sylvan Lake, Blackfalds, Lacombe, Innisfail, Central Alberta</title>
-      <meta name="description" content="Aries Airflo Heating & Air Conditioning - Residential & Commercial Furnace, HVAC, and Cooling Services in Red Deer, Sylvan Lake, Blackfalds, Lacombe, Innisfail, Central Alberta." />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://ariesairflo.com/" />
-      <link rel="icon" href="/images/icon.png" />
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
-    </Helmet>
+class Layout extends PureComponent {
+  componentDidMount () {
+    if (ENV_IS_PROD) {
+      initGoogleAnalytics('UA-152045950-1')
+    }
+  }
 
-    <Navbar />
+  render () {
+    const { children } = this.props
 
-    {children}
+    return (
+      <Fragment>
 
-    <Footer />
+        <Helmet>
+          <html lang="en" />
+          <title>{title}</title>
+          <meta name="description" content={description} />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://ariesairflo.com/" />
+          {/* <link rel="icon" href="/images/icon.png" /> */}
+          <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+        </Helmet>
 
-    <CallToAction />
+        <Navbar />
 
-    <style jsx global>
-      {`
-        html, body {
-          box-sizing: border-box;
-          margin: 0;
-          padding: 0;
-        }
+        {children}
 
-        button, input, textarea {
-          font-size: 1rem;
-        }
+        <Footer />
 
-        *, *:before, *:after {
-          box-sizing: inherit;
-        }
-      `}
-    </style>
+        <CallToAction />
 
-    <style jsx global>
-      {`
-        .navbar-item-active {
-          color: ${styles.colors.primary};
-        }
+        <style jsx global>
+          {`
+            html, body {
+              box-sizing: border-box;
+              margin: 0;
+              padding: 0;
+            }
 
-        .section-dark {
-          background-color: ${styles.colors.primary};
-          color: white;
-        }
+            button, input, textarea {
+              font-size: 1rem;
+            }
 
-        .section-dark h1,
-        .section-dark h2,
-        .section-dark h3,
-        .section-dark h4,
-        .section-dark h5,
-        .section-dark h6 {
-          color: white;
-        }
-      `}
-    </style>
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+          `}
+        </style>
 
-  </Fragment>
-)
+        <style jsx global>
+          {`
+            .navbar-item-active {
+              color: ${styles.colors.primary};
+            }
+
+            .section-dark {
+              background-color: ${styles.colors.primary};
+              color: white;
+            }
+
+            .section-dark h1,
+            .section-dark h2,
+            .section-dark h3,
+            .section-dark h4,
+            .section-dark h5,
+            .section-dark h6 {
+              color: white;
+            }
+          `}
+        </style>
+
+      </Fragment>
+    )
+  }
+}
+
+export default Layout

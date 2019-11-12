@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {
+  heading,
   items,
   title,
 } from '../../cms/pages/testimonials'
@@ -18,17 +19,22 @@ export default () => {
 
           <div className="content">
 
-            {items.map(({
-              content: testimonialContent,
-              customer: testimonialCustomer,
-            }) => (
-              <div className="card" key={testimonialCustomer}>
-                <div className="card-content">
-                  <p className="testimonial-content">{testimonialContent}</p>
-                  <div className="testimonial-customer">- {testimonialCustomer}</div>
+            <h2>{heading}</h2>
+            <br />
+
+            <div>
+              {items.map(({
+                content: testimonialContent,
+                customer: testimonialCustomer,
+              }) => (
+                <div className="card testimonial" key={testimonialCustomer}>
+                  <div className="card-content">
+                    <p className="testimonial-content">{testimonialContent}</p>
+                    <div className="testimonial-customer">- {testimonialCustomer}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
 
           </div>
 
@@ -37,6 +43,10 @@ export default () => {
 
       <style jsx>
         {`
+          .testimonial:not(:first-child) {
+            margin-top: 1.5rem;
+          }
+
           .testimonial-customer {
             font-style: italic;
             font-weight: bold;

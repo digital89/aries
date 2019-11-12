@@ -1,0 +1,28 @@
+{
+  "title": "Tips",
+  "items": [
+    {
+      "title": "General HVAC Issues...",
+      "content": "<ol><li>Check the batteries in your thermostat.</li><li>Is your thermostat set to the correct function (heating or cooling)? </li><li>Has the power to the furnace been shut off?</li><li>Is the filter clean? A dirty filter will eventually cause service problems and drastically decrease efficiency of both the furnace and air conditioner.</li><li>High Efficiency Gas Furnaces have a plastic vent pipe which projects through the outside wall, normally about 12\" above grade level. This can sometimes become plugged with ice and snow and can cause the furnace to shut down. Remove snow or ice carefully and your furnace should restart in a few minutes (some systems require to be reset).</li></ol><b>If you cannot locate the problem by following these steps and require service, take note of the furnace model and serial number and call us!</b>"
+    },
+    {
+      "title": "Excessive humidity or dryness...",
+      "content": "<ol><li>Make sure the damper on the humidifier system is open in winter and closed in the summer.</li><li>The water valve must be opened to provide water for the humidifier.</li><li>Humidifier pad or cell must be cleaned or replaced once or twice per heating season, depending upon local mineral levels in water supply.</li><li>Make sure humidistat is turned ON and set according to table. </li></ol><b>Note: Humidifier adjustment does not react immediately. It takes anywhere from 4-6 hours to stabilize. If excess condensation is found on windows it may be a result of the humidistat being set too high, it might also be an indication of improper ventilation of combustion gases.</b>"
+    },
+    {
+      "title": "Repair or replace?",
+      "content": "Unsure of whether you should repair your system or get a completely new one?",
+      "link": "http://www.lennox.com/buyers-guide/guide-to-hvac/repair-vs-replace"
+    },
+    {
+      "title": "Saving energy...",
+      "content": "A new system can help save on your energy bills. Click below to calculate potential energy savings in your home.",
+      "link": "https://www.lennox.com/buyers-guide/tools/energy-savings-calculator"
+    },
+    {
+      "title": "Extending your warranty...",
+      "content": "Register your equipment within 60 days of installation to receive an additional 5 year extended parts warranty.",
+      "link": "/warranty"
+    }
+  ]
+}

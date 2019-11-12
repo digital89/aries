@@ -1,0 +1,49 @@
+{
+  "title": "Gallery",
+  "items": [
+    {
+      "title": "Commercial Ducts",
+      "image": "/images/uploads/gallery_commercial_ducts.jpg"
+    },
+    {
+      "title": "Ducts in Residential Framing",
+      "image": "/images/uploads/gallery_ducts_in_framing.jpg"
+    },
+    {
+      "title": "Garage Heater",
+      "image": "/images/uploads/gallery_garage_heater.jpg"
+    },
+    {
+      "title": "Kevin working on Air Conditioner",
+      "image": "/images/uploads/gallery_kevin_ac.jpg"
+    },
+    {
+      "title": "Residential Ducts",
+      "image": "/images/uploads/gallery_residential_ducts.jpg"
+    },
+    {
+      "title": "Residential Ducts 2",
+      "image": "/images/uploads/gallery_residential_ducts_2.jpg"
+    },
+    {
+      "title": "Trucks Outside Office",
+      "image": "/images/uploads/gallery_trucks_outside_office.jpg"
+    },
+    {
+      "title": "Terry in the Shop",
+      "image": "/images/uploads/gallery_terry_shop.jpg"
+    },
+    {
+      "title": "Van Outside",
+      "image": "/images/uploads/gallery_van_outside.jpg"
+    },
+    {
+      "title": "Warehouse",
+      "image": "/images/uploads/gallery_warehouse.jpg"
+    },
+    {
+      "title": "Wiring",
+      "image": "/images/uploads/gallery_wiring.jpg"
+    }
+  ]
+}

@@ -58,32 +58,6 @@ export default () => {
               Services
             </Link>
 
-            {/*
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link">
-                Products
-              </a>
-
-              <div className="navbar-dropdown">
-                <Link className="navbar-item" to="/products/furnaces" activeClassName="navbar-item-active">
-                  Furnaces
-                </Link>
-                <Link className="navbar-item" to="/products/air-conditioners" activeClassName="navbar-item-active">
-                  Air Conditioners
-                </Link>
-                <Link className="navbar-item" to="/products/indoor-air-quality" activeClassName="navbar-item-active">
-                  Indoor Air Quality
-                </Link>
-                <Link className="navbar-item" to="/products/garage-heaters" activeClassName="navbar-item-active">
-                  Garage Heaters
-                </Link>
-                <Link className="navbar-item" to="/products/thermostats" activeClassName="navbar-item-active">
-                  Thermostats
-                </Link>
-              </div>
-            </div>
-            */}
-
             <Link className="navbar-item" to="/products" activeClassName="navbar-item-active">
               Products
             </Link>
@@ -104,6 +78,9 @@ export default () => {
                 <Link className="navbar-item" to="/review" activeClassName="navbar-item-active">
                   Leave us a review
                 </Link>
+                <Link className="navbar-item" to="/gallery" activeClassName="navbar-item-active">
+                  Gallery
+                </Link>
                 <hr className="navbar-divider" />
                 <Link className="navbar-item" to="/warranty" activeClassName="navbar-item-active">
                   Register for warranty
@@ -119,13 +96,9 @@ export default () => {
                 <Link className="navbar-item" to="/financing" activeClassName="navbar-item-active">
                   Financing Options
                 </Link>
-                <hr className="navbar-divider" />
-                <a className="navbar-item">
+                <Link className="navbar-item" to="/tips" activeClassName="navbar-item-active">
                   Tips
-                </a>
-                <a className="navbar-item">
-                  Gallery
-                </a>
+                </Link>
               </div>
             </div>
 

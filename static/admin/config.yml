@@ -15,12 +15,19 @@ collections:
     editor:
       preview: false
     files:
+      - name: "site"
+        label: "Site"
+        file: "cms/general/site.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+
       - name: "hours"
         label: "Hours"
         file: "cms/general/hours.json"
         fields:
           - name: "hours"
             label: "Hours"
+            label_singular: "Hour"
             widget: "list"
             fields:
               - { name: "days", label: "Day(s)", widget: "string" }
@@ -42,6 +49,32 @@ collections:
               - { name: "postcode", label: "Postal Code", widget: "string" }
           - { name: "facebook", label: "Facebook URL", widget: "string" }
 
+      - name: "brands"
+        label: "Brands"
+        file: "cms/general/brands.json"
+        fields:
+          - name: "items"
+            label: "Brands"
+            label_singular: "Brand"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "link", label: "Link", widget: "string" }
+              - { name: "image", label: "Image", widget: "image" }
+
+      - name: "promotions"
+        label: "Promotions"
+        file: "cms/general/hours.json"
+        fields:
+          - name: "items"
+            label: "Promotions"
+            label_singular: "Promotion"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "content", label: "Content", widget: "text" }
+              - { name: "image", label: "Image", widget: "image" }
+
   - name: "pages"
     label: "Pages"
     delete: false
@@ -54,6 +87,22 @@ collections:
         fields:
           - { name: "title", label: "Title", widget: "string" }
           - { name: "subtitle", label: "Subtitle", widget: "string" }
+          - name: "serviceTidbits"
+            label: "Service Tidbits List"
+            label_singular: "Service Tidbit"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "text" }
+              - { name: "content", label: "Content", widget: "text" }
+          - { name: "extraTitle", label: "Title", widget: "string" }
+          - { name: "extraContent", label: "Subtitle", widget: "string" }
+          - name: "extraTidbits"
+            label: "Extra Tidbits List"
+            label_singular: "Extra Tidbit"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "text" }
+              - { name: "content", label: "Content", widget: "text" }
 
       - name: "about"
         label: "About"
@@ -69,6 +118,7 @@ collections:
           - { name: "peopleContent", label: "People Content", widget: "text" }
           - name: "people"
             label: "People List"
+            label_singular: "Person"
             widget: "list"
             fields:
               - { name: "name", label: "Name", widget: "string" }
@@ -84,11 +134,13 @@ collections:
           - { name: "heading", label: "Heading", widget: "string" }
           - name: "items"
             label: "Services List"
+            label_singular: "Service"
             widget: "list"
             fields:
               - { name: "title", label: "Title", widget: "string" }
               - name: "images"
                 label: "Images"
+                label_singular: "Image"
                 widget: "list"
                 fields:
                   - { name: "title", label: "Title", widget: "string" }
@@ -103,11 +155,13 @@ collections:
           - { name: "heading", label: "Heading", widget: "string" }
           - name: "categories"
             label: "Product Categories"
+            label_singular: "Product Category"
             widget: "list"
             fields:
               - { name: "name", label: "Name", widget: "string" }
-              - name: "categoryItems"
+              - name: "items"
                 label: "Product Category Items"
+                label_singular: "Product Category Item"
                 widget: "list"
                 fields:
                   - { name: "title", label: "Title", widget: "text" }
@@ -130,6 +184,7 @@ collections:
           - { name: "heading", label: "Heading", widget: "string" }
           - name: "items"
             label: "Testimonials List"
+            label_singular: "Testimonial"
             widget: "list"
             fields:
               - { name: "customer", label: "Customer", widget: "string" }
@@ -143,6 +198,7 @@ collections:
           - { name: "heading", label: "Heading", widget: "string" }
           - name: "items"
             label: "Review Site List"
+            label_singular: "Review Site"
             widget: "list"
             fields:
               - { name: "name", label: "Review Site Name", widget: "string" }
@@ -156,9 +212,44 @@ collections:
           - { name: "heading", label: "Heading", widget: "string" }
           - { name: "content", label: "Heading", widget: "text" }
           - name: "items"
-            label: "Warranty List"
+            label: "Warranty Brand List"
+            label_singular: "Warranty Brand Item"
             widget: "list"
             fields:
               - { name: "name", label: "Warranty Name", widget: "string" }
               - { name: "link", label: "Warranty Link", widget: "string" }
               - { name: "image", label: "Warranty Image", widget: "image" }
+
+      - name: "financing"
+        label: "Financing"
+        file: "cms/pages/financing.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "content", label: "Content", widget: "text" }
+          - { name: "image", label: "Financing Image", widget: "image" }
+
+      - name: "tips"
+        label: "Tips"
+        file: "cms/pages/tips.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - name: "items"
+            label: "Tips List"
+            label_singular: "Tip"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Tip Title", widget: "string" }
+              - { name: "content", label: "Tip Content", widget: "text" }
+
+      - name: "gallery"
+        label: "Gallery"
+        file: "cms/pages/gallery.json"
+        fields:
+          - { name: "title", label: "Title", widget: "string" }
+          - name: "items"
+            label: "Gallery Items"
+            label_singular: "Gallery Item"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Gallery Item Title", widget: "string" }
+              - { name: "image", label: "Gallery Item Image", widget: "image" }

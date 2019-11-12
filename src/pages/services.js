@@ -37,11 +37,11 @@ export default () => {
               title: serviceItemTitle,
             }, index) => (
               <Fragment key={serviceItemTitle}>
-                <h4 id={`service-${index + 1}`}>{serviceItemTitle}</h4>
+                <h3 id={`service-${index + 1}`}>{serviceItemTitle}</h3>
                 <p dangerouslySetInnerHTML={{ __html: serviceItemContent }} />
 
                 {serviceItemImages && (
-                  <div className="columns is-multiline is-centered is-mobile">
+                  <div className="columns is-multiline is-centered is-mobile service-items">
                     {serviceItemImages.map(({
                       image: serviceItemImageSrc,
                       subtitle: serviceItemImageSubtitle,
@@ -72,6 +72,9 @@ export default () => {
 
       <style jsx>
         {`
+          .service-items {
+            margin-top: 1rem;
+          }
           .service-item-title {
             font-size: 0.75rem;
           }

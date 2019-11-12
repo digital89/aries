@@ -1,11 +1,21 @@
 import React from 'react'
+import classNames from 'classnames'
 
+import brandItems from '../../cms/general/brands'
+import promotionItems from '../../cms/general/promotions'
 import {
+  brandsHeading,
   callToAction,
+  extraContent,
+  extraTidbits,
+  extraTitle,
+  introduction,
+  serviceTidbits,
   subtitle,
   title,
 } from '../../cms/pages/home'
 import Layout from '../components/Layout'
+import styles from '../styles'
 
 export default () => {
   return (
@@ -33,34 +43,129 @@ export default () => {
         </div>
       </section>
 
+      {promotionItems && promotionItems.length && (
+        <section className="section">
+          <div className="container">
+            <div className="content">
+
+              {promotionItems.map(({
+                content: promotionItemContent,
+                image: promotionItemImageSrc,
+                title: promotionItemTitle,
+              }) => (
+                <div className="card" key={promotionItemTitle}>
+                  <div className="card-content">
+                    <article className="media" style={{ alignItems: 'center' }}>
+                      {promotionItemImageSrc && (
+                        <img className="promotion-image" src={promotionItemImageSrc} alt={promotionItemTitle} />
+                      )}
+                      <div className="media-content">
+                        <div className="content">
+                          <h3>{promotionItemTitle}</h3>
+                          <div dangerouslySetInnerHTML={{ __html: promotionItemContent }} />
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              ))}
+
+            </div>
+          </div>
+        </section>
+      )}
+
       <section className="section">
         <div className="container">
-        RED DEER AND AREA.....
-
-        Aries Airflo Heating & Air Conditioning is a full service HVAC company that provides services in RED DEER AND CENTRAL ALBERTA in residential new construction, commercial construction, service and replacements.
-
-        Whether you are in the market to purchase a central air conditioner, furnace, or complete home-comfort system, Aries Airflo would like to assure you that we are here to make your purchase decision as easy and convenient as possible.
+          <div className="content">
+            <div className="introduction" dangerouslySetInnerHTML={{ __html: introduction }} />
+          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          Were proud to offer the highest quality, most reliable brands available:
-          <br />
-          brand1, brand2
+          <div className="content">
+
+            <h3>{brandsHeading}</h3>
+            <br />
+            <div className="columns is-multiline is-centered is-mobile">
+              {brandItems.map(({
+                name: brandItemName,
+                image: brandItemImageSrc,
+                link: brandItemLink,
+              }) => (
+                <div
+                  className={classNames(
+                    'column',
+                    global.window && global.window.innerWidth >= styles.sizes.tablet ? 'is-one-sixth' : 'is-one-third',
+                  )}
+                  key={brandItemName}
+                  style={{ display: 'flex', alignItems: 'center' }}
+                >
+                  <a href={brandItemLink} target="_blank" rel="noopener noreferrer">
+                    <img src={brandItemImageSrc} alt={brandItemName} />
+                  </a>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-dark">
+        <div className="container">
+          <div className="content">
+
+            <div className="columns is-multiline">
+
+              {serviceTidbits.map(({
+                content: serviceTidbitContent,
+                title: serviceTidbitTitle,
+              }) => (
+                <div className="column" key={serviceTidbitTitle}>
+                  <h3 className="tidbit-title" dangerouslySetInnerHTML={{ __html: serviceTidbitTitle }} />
+                  <div
+                    className="tidbit-content"
+                    dangerouslySetInnerHTML={{ __html: serviceTidbitContent }}
+                  />
+                </div>
+              ))}
+            </div>
+
+          </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <div>Offering you the best solution for your heating and cooling needs</div>
-          <p>As central Alberta's leading Lennox dealer, our mission is to provide a full range of innovative, comfort solutions for residential, commercial and industrial customers delivered by a team of experts with outstanding customer service. </p>
-          <p>HERE WHEN YOU NEED US</p>
-          <p>Our service team is up and running 24 hours for emergency service. For quotes and other information, our regular business hours are 8am-5pm Monday to Friday.</p>
-          <p>COMPETITIVE PRICES</p>
-          <p>Aries Airflo is proud to offer quality products at competitive prices. Financing is also available.</p>
-          <p>PROFESSIONALLY QUALIFIED</p>
-          <p>Our team has over 30 years of experience in the HVAC industry, and our technicians are highly qualified to complete your projects in a timely and efficient manner.</p>
+          <div className="content">
+
+            <h3>{extraTitle}</h3>
+
+            <div dangerouslySetInnerHTML={{ __html: extraContent }} />
+
+            <br />
+            <br />
+
+            <div className="columns is-multiline">
+
+              {extraTidbits.map(({
+                content: extraTidbitContent,
+                title: extraTidbitTitle,
+              }) => (
+                <div className="column" key={extraTidbitTitle}>
+                  <h5 className="tidbit-title" dangerouslySetInnerHTML={{ __html: extraTidbitTitle }} />
+                  <div
+                    className="tidbit-content"
+                    dangerouslySetInnerHTML={{ __html: extraTidbitContent }}
+                  />
+                </div>
+              ))}
+            </div>
+
+          </div>
         </div>
       </section>
 
@@ -80,6 +185,31 @@ export default () => {
 
           .hero-cta {
             margin-top: 2rem;
+          }
+
+          .promotion:not(:first-child) {
+            margin-top: 1.5rem;
+          }
+          .promotion-image {
+            margin-right: 1.5rem;
+            width: 200px;
+          }
+          @media screen and (max-width: ${styles.sizes.phone}px) {
+            .promotion-image {
+              width: 50px;
+            }
+          }
+
+          .introduction {
+            font-size: 1.5rem;
+          }
+
+          .tidbit-title {
+            text-align:
+            white-space: pre-line;
+          }
+          .tidbit-content {
+            font-size: 0.85rem;
           }
         `}
       </style>

@@ -35,7 +35,7 @@ export default () => {
               items: categoryItems,
             }, index) => (
               <Fragment key={categoryName}>
-                <h4 id={`product-${index + 1}`}>{categoryName}</h4>
+                <h3 id={`product-${index + 1}`}>{categoryName}</h3>
 
                 <div className="columns is-multiline is-centered">
                   {categoryItems.map(({
@@ -48,7 +48,6 @@ export default () => {
                       className="column is-half"
                       key={categoryItemTitle}
                     >
-
                       <div className="card column-card">
                         <div className="card-content">
                           <article className="media">
@@ -59,12 +58,20 @@ export default () => {
                                 {categoryItemDescription && (
                                   <div className="product-description">{categoryItemDescription}</div>
                                 )}
+                                {categoryItemLink && (
+                                  <a
+                                    href={categoryItemLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <button className="button is-small product-button" type="button">Learn More</button>
+                                  </a>
+                                )}
                               </div>
                             </div>
                           </article>
                         </div>
                       </div>
-
                     </div>
                   ))}
                 </div>
@@ -86,6 +93,10 @@ export default () => {
           }
 
           .product-description {
+            margin-top: 1rem;
+          }
+
+          .product-button {
             margin-top: 1rem;
           }
 

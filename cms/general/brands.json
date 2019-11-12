@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lennox",
+    "link": "https://www.lennox.com/",
+    "image": "/images/uploads/brand_lennox.png"
+  },
+  {
+    "name": "Goodman",
+    "link": "https://www.goodmanmfg.com/",
+    "image": "/images/uploads/brand_goodman.png"
+  },
+  {
+    "name": "Honeywell",
+    "link": "https://www.honeywell.com/",
+    "image": "/images/uploads/brand_honeywell.png"
+  },
+  {
+    "name": "Reznor",
+    "link": "https://www.reznorhvac.com/",
+    "image": "/images/uploads/brand_reznor.png"
+  },
+  {
+    "name": "General Aire",
+    "link": "https://www.generalfilters.com/",
+    "image": "/images/uploads/brand_generalaire.png"
+  },
+  {
+    "name": "Re-Verber-Ray",
+    "link": "https://www.reverberray.com/",
+    "image": "/images/uploads/brand_reverberray.png"
+  }
+]

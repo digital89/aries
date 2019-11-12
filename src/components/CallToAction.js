@@ -35,7 +35,7 @@ export default () => (
           padding: 1rem;
           position: fixed;
           right: 20px;
-          z-index: 1000;
+          z-index: 20;
         }
         .cta:hover {
           box-shadow: 0 0 15px #333;

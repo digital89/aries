@@ -70,7 +70,7 @@ class EmailForm extends PureComponent {
       try {
         await this.setStateAsync({ loading: true })
 
-        const emailToSendTo = 'jaredreich+ariestest@gmail.com'
+        const emailToSendTo = 'jared+ariestest@digital89.com'
         // const emailToSendTo = ariesEmailAddress;
         await axios.post('https://digital89.com/.netlify/functions/email', {
           from: { email: 'mail@digital89.com', name: 'ariesairflo.com' },
@@ -124,11 +124,13 @@ class EmailForm extends PureComponent {
 
   render () {
     const {
+      failure,
       formEmail,
       formMessage,
       formName,
       formSubject,
       loading,
+      success,
       valid,
     } = this.state
 
@@ -187,6 +189,13 @@ class EmailForm extends PureComponent {
           </div>
         </div>
 
+        {success && (
+          <div className="message-result">Thanks for getting in touch, we will get back to you very soon!</div>
+        )}
+        {failure && (
+          <div className="message-result">Oops, there was an issue, please try again.</div>
+        )}
+
         <div className="field">
           <div className="control">
             <button
@@ -213,10 +222,15 @@ class EmailForm extends PureComponent {
               min-height: 200px;
             }
 
+            .message-result {
+              margin-bottom: 15px;
+            }
+
             .loader-container {
               align-items: center;
               display: flex;
             }
+
             .loader-icon {
               height: 20px;
 

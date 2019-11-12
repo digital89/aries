@@ -1,6 +1,6 @@
 {
   "title": "Our Products",
-  "heading": "These are our products",
+  "heading": "We carry many categories of products:",
   "categories": [
     {
       "name": "Furnaces",
@@ -12,40 +12,160 @@
           "link": "https://www.lennox.com/products/heating-cooling/furnaces/slp98v"
         },
         {
-          "title": "Goodman GMVM97\nMODULATING GAS FURNACE ​",
-          "description": "High-efficiency, multi speed gas furnace\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98\nEnergy Star* Qualified",
+          "title": "Goodman GMVM97\nMODULATING GAS FURNACE ",
+          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98\nEnergy Star* Qualified",
           "image": "/images/uploads/products_furnaces_Goodman_GMVM97.jpg",
           "link": "http://www.goodmanmfg.com/pdfviewer.aspx?pdfurl=docs/librariesprovider6/default-document-library/cb-gmvm97496c290022fa6258827eff0500754798.pdf?sfvrsn=94964bc0_2"
         },
         {
-          "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE",
+          "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
           "description": "Two-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
-          "image": "/images/uploads/x.jpg",
+          "image": "/images/uploads/products_furnaces_Lennox_EL296V.jpg",
           "link": "https://www.lennox.com/products/heating-cooling/furnaces/el296v"
         },
         {
           "title": "Goodman GMVC96\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
-          "description": "High-efficiency, multi speed gas furnace\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
-          "image": "/images/uploads/x.jpg",
+          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_furnaces_Goodman_GMVC96.jpg",
           "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/96-afue-gmvc96"
+        },
+        {
+          "title": "Lennox EL195XE\nHIGH-EFFICIENCY GAS FURNACE​",
+          "description": "Single-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 95\nEnergy Star* Qualified ",
+          "image": "/images/uploads/products_furnaces_Lennox_EL195XE.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/el195e"
+        },
+        {
+          "title": "Goodman GMEC96\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
+          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_furnaces_Goodman_GMEC96.jpg",
+          "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/96-afue-gmec96"
+        },
+        {
+          "title": "Lennox ML193\nHIGH-EFFICIENCY GAS FURNACE​",
+          "description": "Economical, high-efficiency single-stage gas furnace\n\nPrice Guide: $\nEfficiency Rating (AFUE): 93",
+          "image": "/images/uploads/products_furnaces_Lennox_ML193.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml193"
+        },
+        {
+          "title": "​Goodman GMSS92\nHIGH-EFFICIENCY GAS FURNACE",
+          "description": "Economical, high-efficiency, single-stage gas furnace\n\nPrice Guide: $\nEfficiency Rating (AFUE): 92",
+          "image": "/images/uploads/products_furnaces_​Goodman_GMSS92.jpg",
+          "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/92-afue-gmss92"
         }
       ]
     },
     {
       "name": "Air Conditioners",
-      "items": []
+      "items": [
+        {
+          "title": "Lennox XC25\nVARIABLE CAPACITY AIR CONDITIONER​",
+          "description": "The most precise and efficient air conditioner you can buy\n\nPrice Guide: $$$\nEfficiency Rating (SEER): Up to 26\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_air_conditioners_​​Lennox_XC25.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/xc25"
+        },
+        {
+          "title": "​Lennox SL18XC1\nSINGLE-STAGE AIR CONDITIONER",
+          "description": "The quietest and most efficient single-stage air conditioner you can buy*\n\nPrice Guide: $$$\nEfficiency Rating (SEER): Up to 18.5\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_air_conditioners_​​Lennox_SL18XC1.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/sl18xc1"
+        },
+        {
+          "title": "Lennox EL16XC1\nHIGH-EFFICIENCY SINGLE-STAGE AIR CONDITIONER​",
+          "description": "High-efficiency air-conditioner\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 17\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_air_conditioners_Lennox_EL16XC1.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/el16xc1"
+        },
+        {
+          "title": "Lennox XC13\nSINGLE STAGE AIR CONDITIONER​",
+          "description": "Reliable and efficient\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 15.5",
+          "image": "/images/uploads/products_air_conditioners_​​Lennox_XC13.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/xc13"
+        },
+        {
+          "title": "​Lennox 13ACX\nSINGLE STAGE AIR CONDITIONER",
+          "description": "Reliable and efficient\n\nPrice Guide: $\nEfficiency Rating (SEER): Up to 13",
+          "image": "/images/uploads/products_air_conditioners_​​​Lennox_13ACX.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/13acx"
+        },
+        {
+          "title": "Goodman GSX14\nSINGLE-STAGE AIR CONDITIONER​",
+          "description": "Energy efficient air-conditioner\n\nPrice Guide: $\nEfficiency Rating (SEER): Up to 14",
+          "image": "/images/uploads/products_air_conditioners_Goodman_GSX14.jpg",
+          "link": "http://www.goodmanmfg.com/products/air-conditioners/14-seer-gsx14"
+        },
+        {
+          "title": "​Goodman GSX16\nSINGLE-STAGE AIR CONDITIONER",
+          "description": "Energy efficient air-conditioner\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 16\nEnergy Star* Qualified",
+          "image": "/images/uploads/products_air_conditioners_Goodman_GSX16.jpg",
+          "link": "http://www.goodmanmfg.com/products/air-conditioners/16-seer-gsx16"
+        }
+      ]
     },
     {
       "name": "Indoor Air Quality",
-      "items": []
+      "items": [
+        {
+          "title": "Lennox\nPCO3 PURE AIR PURIFICATION SYSTEM​",
+          "description": "Protection from allergens, airborne bacteria and chemicals and odours\n\nPrice Guide: $$$",
+          "image": "/images/uploads/products_air_quality_Lennox_PCO3.jpg",
+          "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/pureair"
+        },
+        {
+          "title": "Lennox\n​HEALTHY CLIMATE 16 MEDIA AIR CLEANERS",
+          "description": "Removes more than 95% of allergens\n\nPrice Guide: $",
+          "image": "/images/uploads/products_air_quality_Lennox_Healthy_Climate_16.jpg",
+          "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/carbonclean16"
+        },
+        {
+          "title": "​Lennox\nHEALTHY CLIMATE 11 MEDIA AIR CLEANERS",
+          "description": "Removes more than 85% of allergens\n\nPrice Guide: $",
+          "image": "/images/uploads/products_air_quality_Lennox_Healthy_Climate_11.jpg",
+          "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/hc11"
+        },
+        {
+          "title": "General Filters\n1042 HUMIDIFIER​",
+          "description": "Humidity control for comfort, health & protection\n\nPrice Guide: $$",
+          "image": "/images/uploads/products_air_quality_General_1042.jpg",
+          "link": "http://www.generalfilters.com/products/humidifiers/legacy-series-humidifiers/Model-1042LH-_PT12.html"
+        }
+      ]
     },
     {
       "name": "Garage Heaters",
-      "items": []
+      "items": [
+        {
+          "title": "Reznor\nUNIT HEATERS ",
+          "description": "83% Thermal efficiency\n45,000, 60,000 and 75,000 BTU units ",
+          "image": "/images/uploads/products_garage_heaters_Reznor.jpg",
+          "link": "https://www.reznorhvac.com/all-products/unit-heaters/"
+        }
+      ]
     },
     {
       "name": "Thermostats",
-      "items": []
+      "items": [
+        {
+          "title": "iComfort\nE30 SMART THERMOSTAT ​",
+          "description": "Wi-Fi enabled smart thermostat. Works with Lennox products\n\nPrice Guide: $$",
+          "image": "/images/uploads/products_thermostats_iComfort_E30.jpg"
+        },
+        {
+          "title": "​Honeywell\nWiFi Thermostat",
+          "description": "Wi-Fi enabled smart thermostat\n\nPrice Guide: $$",
+          "image": "/images/uploads/products_thermostats_Honeywell_WiFi.jpg"
+        },
+        {
+          "title": "​Honeywell\nPRO 6000",
+          "description": "7 day programmable electrical heat thermostat\n\nPrice Guide: $$",
+          "image": "/images/uploads/products_thermostats_Honeywell_Pro_6000.jpg"
+        },
+        {
+          "title": "Honeywell\nPRO 4000​",
+          "description": "5-2 day programmable thermostat\n\nPrice Guide: $$",
+          "image": "/images/uploads/products_thermostats_Honeywell_Pro_4000.jpg"
+        }
+      ]
     }
   ]
 }

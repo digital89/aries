@@ -1,5 +1,41 @@
 {
   "title": "Aries Airflo Heating & Air Conditioning",
   "subtitle": "Residential & Commercial Furnace, HVAC, and Cooling Services in Red Deer, Sylvan Lake, Blackfalds, Lacombe, Innisfail, and Central Alberta.",
-  "callToAction": "Get in touch with us!"
+  "callToAction": "Get in touch with us!",
+  "introduction": "<p>Aries Airflo Heating & Air Conditioning is a <b>full-service HVAC (Heating, Ventilation, and Air Conditioning) company</b> that provides services in in Red Deer, Sylvan Lake, Blackfalds, Lacombe, Innisfail, and Central Alberta for residential new construction, commercial construction, retrofit, maintenance and tune-ups, replacements, and more.</p><p>Whether you are in the market to purchase a central air conditioner, furnace, or complete home-comfort system, <b>Aries Airflo would like to assure you that we are here to make your purchase decision as easy and convenient as possible.</b></p>",
+  "brandsHeading": "We're proud to offer the highest quality, most reliable brands available:",
+  "serviceTidbits": [
+    {
+      "title": "RESIDENTIAL",
+      "content": "Whether you are building a new home or upgrading your current home, we can help you find the perfect HVAC system for your family."
+    },
+    {
+      "title": "COMMERCIAL",
+      "content": "Office buildings, automotive shops, warehouses,you can depend on our team to provide you with quality service and expertise for all your commercial projects."
+    },
+    {
+      "title": "SERVICE/REPAIRS",
+      "content": "Our highly certified technicians are available 24 hours a day to assist with any mechanical emergencies. Call today to book your Precision Tune Up!"
+    },
+    {
+      "title": "RETROFIT",
+      "content": "We can provide you with all the information you will need to make an informed decision when it comes time for a new HVAC system."
+    }
+  ],
+  "extraTitle": "Offering you the best solution for your heating and cooling needs",
+  "extraContent": "<i>As central Alberta's leading Lennox dealer, our mission is to provide a full range of innovative, comfort solutions for residential, commercial and industrial customers delivered by a team of experts with outstanding customer service.</i>",
+  "extraTidbits": [
+    {
+      "title": "HERE WHEN YOU\nNEED US",
+      "content": "Our service team is up and running 24 hours for emergency service. For quotes and other information, our regular business hours are 8am-5pm Monday to Friday."
+    },
+    {
+      "title": "COMPETITIVE\nPRICES",
+      "content": "Aries Airflo is proud to offer quality products at competitive prices. Financing is also available."
+    },
+    {
+      "title": "PROFESSIONALLY\nQUALIFIED",
+      "content": "Our team has over 30 years of experience in the HVAC industry, and our technicians are highly qualified to complete your projects in a timely and efficient manner."
+    }
+  ]
 }
