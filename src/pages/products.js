@@ -3,15 +3,17 @@ import React, { Fragment } from 'react'
 import {
   categories,
   heading,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/products'
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 import styles from '../styles'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <Title title={title} inverted />
 

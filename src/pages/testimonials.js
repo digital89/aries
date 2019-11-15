@@ -3,14 +3,16 @@ import React from 'react'
 import {
   heading,
   items,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/testimonials'
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <Title title={title} inverted />
 
@@ -20,17 +22,22 @@ export default () => {
           <div className="content">
 
             <h2>{heading}</h2>
+
             <br />
 
             <div>
               {items.map(({
                 content: testimonialContent,
                 customer: testimonialCustomer,
+                date: testimonialDate,
               }) => (
                 <div className="card testimonial" key={testimonialCustomer}>
                   <div className="card-content">
                     <p className="testimonial-content">{testimonialContent}</p>
-                    <div className="testimonial-customer">- {testimonialCustomer}</div>
+                    <div className="testimonial-customer">{testimonialCustomer}</div>
+                    {testimonialDate && (
+                      <div className="testimonial-date">{testimonialDate}</div>
+                    )}
                   </div>
                 </div>
               ))}
@@ -50,6 +57,10 @@ export default () => {
           .testimonial-customer {
             font-style: italic;
             font-weight: bold;
+          }
+
+          .testimonial-date {
+            color: #A3A3A3;
           }
         `}
       </style>

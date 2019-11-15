@@ -5,6 +5,8 @@ import classNames from 'classnames'
 
 import {
   items,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/gallery'
 import Layout from '../components/Layout'
@@ -59,10 +61,11 @@ class Gallery extends PureComponent {
   }
 
   render () {
+    const { location } = this.props
     const { selectedImage } = this.state
 
     return (
-      <Layout>
+      <Layout description={seoDescription} location={location} title={seoTitle}>
 
         <Title title={title} inverted />
 

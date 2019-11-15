@@ -10,15 +10,17 @@ import {
 } from '../../cms/general/contact'
 import hours from '../../cms/general/hours'
 import {
+  seoDescription,
+  seoTitle,
   subtitle,
   title,
 } from '../../cms/pages/contact'
 import EmailForm from '../components/EmailForm'
 import Layout from '../components/Layout'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <section className="hero is-primary">
         <div className="hero-body">
@@ -87,13 +89,9 @@ export default () => {
               <div><b>Social:</b></div>
 
               <div className="social">
-                <a href={facebook} title="Beet Top Cafe Facebook" target="_blank" rel="noopener noreferrer">
+                <a href={facebook} title="Aries Airflo Facebook" target="_blank" rel="noopener noreferrer">
                   <img className="social-icon" src="/images/facebook.svg" alt="Facebook" />
                 </a>
-                {/* <span>&nbsp;</span>
-                <a href="https://www.instagram.com/beettopcafe/" title="Beet Top Cafe Instagram" target="_blank" rel="noopener noreferrer">
-                  twicon
-                </a> */}
               </div>
             </div>
 
@@ -102,6 +100,27 @@ export default () => {
             </div>
 
           </div>
+
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+
+          <iframe
+            allowFullScreen
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?q=aries%20airflo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            style={{
+              border: 'none',
+              height: '300px',
+              width: '100%',
+            }}
+            title="Google Maps View"
+          />
 
         </div>
       </section>

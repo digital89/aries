@@ -4,6 +4,8 @@ import classNames from 'classnames'
 import {
   heading,
   items,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/services'
 import Layout from '../components/Layout'
@@ -11,9 +13,9 @@ import Title from '../components/Title'
 import styles from '../styles'
 import { useSmallImage } from '../utilities'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <Title title={title} inverted />
 

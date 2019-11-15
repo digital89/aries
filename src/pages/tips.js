@@ -2,14 +2,16 @@ import React from 'react'
 
 import {
   items,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/tips'
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <Title title={title} inverted />
 

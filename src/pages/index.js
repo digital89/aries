@@ -9,6 +9,8 @@ import {
   extraContent,
   extraTidbits,
   extraTitle,
+  seoDescription,
+  seoTitle,
   introduction,
   serviceTidbits,
   subtitle,
@@ -18,9 +20,9 @@ import Layout from '../components/Layout'
 import styles from '../styles'
 import { useSmallImage } from '../utilities'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <section className="hero is-medium is-primary">
         <div className="hero-body">

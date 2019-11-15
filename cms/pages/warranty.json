@@ -1,17 +1,7 @@
 {
+  "seoTitle": "Aries Airflo - ",
+  "seoDescription": "",
   "title": "Register your products for extended warranty!",
   "heading": "",
-  "content": "<p>Aries Airflo provides one year labour warranty on the installation of your equipment. The standard parts warranty coverage for most equipment is 5 year parts warranty.</p><p>We recommend you register your product at the links below to receive an additional 5 year extended parts warranty. If you do not register within 60 days of installation, you will be ineligible for the extended warranty.</p>",
-  "items": [
-    {
-      "name": "Lennox",
-      "link": "https://www.lennoxwarranty.com/html/LNXWelcome.htm",
-      "image": "/images/uploads/brand_lennox.png"
-    },
-    {
-      "name": "Goodman",
-      "link": "http://www.goodmanmfg.com/product-registration",
-      "image": "/images/uploads/brand_goodman.png"
-    }
-  ]
+  "content": "<p>Aries Airflo provides one year labour warranty on the installation of your equipment. The standard parts warranty coverage for most equipment is 5 year parts warranty.</p><p>We recommend you register your product at the links below to receive an additional 5 year extended parts warranty. If you do not register within 60 days of installation, you will be ineligible for the extended warranty.</p>"
 }

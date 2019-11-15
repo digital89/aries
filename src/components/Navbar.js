@@ -83,7 +83,13 @@ export default () => {
                 </Link>
                 <hr className="navbar-divider" />
                 <Link className="navbar-item" to="/warranty" activeClassName="navbar-item-active">
-                  Register for warranty
+                  Warranty
+                </Link>
+                <Link className="navbar-item" to="/tips" activeClassName="navbar-item-active">
+                  Tips
+                </Link>
+                <Link className="navbar-item" to="/financing" activeClassName="navbar-item-active">
+                  Financing Options
                 </Link>
                 <a
                   className="navbar-item"
@@ -93,12 +99,6 @@ export default () => {
                 >
                   Energy Savings Calculator
                 </a>
-                <Link className="navbar-item" to="/financing" activeClassName="navbar-item-active">
-                  Financing Options
-                </Link>
-                <Link className="navbar-item" to="/tips" activeClassName="navbar-item-active">
-                  Tips
-                </Link>
               </div>
             </div>
 

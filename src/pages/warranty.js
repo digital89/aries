@@ -2,15 +2,16 @@ import React from 'react'
 
 import {
   content,
-  items,
+  seoDescription,
+  seoTitle,
   title,
 } from '../../cms/pages/warranty'
 import Layout from '../components/Layout'
 import Title from '../components/Title'
 
-export default () => {
+export default ({ location }) => {
   return (
-    <Layout>
+    <Layout description={seoDescription} location={location} title={seoTitle}>
 
       <Title title={title} inverted />
 
@@ -19,38 +20,7 @@ export default () => {
 
           <div className="content">
 
-            <p dangerouslySetInnerHTML={{ __html: content }} />
-
-            <div className="columns warranty-items">
-
-              {items.map(({
-                image: warrantyItemImageSrc,
-                link: warrantyItemLink,
-                name: warrantyItemName,
-              }) => (
-                <div className="column" key={warrantyItemName}>
-                  <div className="card column-card">
-                    <div className="card-content warranty-item-image-container">
-                      <img
-                        className="warranty-item-image"
-                        src={warrantyItemImageSrc}
-                        alt={warrantyItemName}
-                      />
-                    </div>
-                    <footer className="card-footer">
-                      <p className="card-footer-item">
-                        <span>
-                          <a href={warrantyItemLink} target="_blank" rel="noopener noreferrer">
-                            Click here for {warrantyItemName} Products
-                          </a>
-                        </span>
-                      </p>
-                    </footer>
-                  </div>
-                </div>
-              ))}
-
-            </div>
+            <div dangerouslySetInnerHTML={{ __html: content }} />
 
           </div>
 
