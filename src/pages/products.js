@@ -58,7 +58,7 @@ export default ({ location }) => {
                               <div className="content product-content">
                                 <div><b>{categoryItemTitle}</b></div>
                                 {categoryItemDescription && (
-                                  <div className="product-description">{categoryItemDescription}</div>
+                                  <div className="product-description" dangerouslySetInnerHTML={{ __html: categoryItemDescription }} />
                                 )}
                                 {categoryItemLink && (
                                   <a
