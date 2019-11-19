@@ -178,7 +178,7 @@ collections:
                   - { name: "title", label: "Title", widget: "text" }
                   - { name: "description", label: "Description", widget: "text" }
                   - { name: "image", label: "Image", widget: "image" }
-                  - { name: "link", label: "Link", widget: "string" }
+                  - { name: "link", label: "Link", widget: "string", optional: true }
 
       - name: "contact"
         label: "Contact"
