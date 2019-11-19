@@ -5,6 +5,7 @@ import {
   email,
   facebook,
   fax,
+  googleMaps,
   phone,
   phoneRaw,
 } from '../../cms/general/contact'
@@ -62,7 +63,7 @@ export default ({ location }) => {
             <div className="column">
               <div><b>Address:</b></div>
               <div>
-                <a href="https://goo.gl/maps/dU1Q7wxGLVS1WU3n7" target="_blank" rel="noopener noreferrer">
+                <a href={googleMaps} target="_blank" rel="noopener noreferrer">
                   <span>{address.street}</span>
                   <br />
                   <span>{address.city}, {address.province}, {address.postcode}</span>

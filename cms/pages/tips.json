@@ -2,6 +2,7 @@
   "seoTitle": "Aries Airflo - Tips",
   "seoDescription": "A curated list of general HVAC tips to help you keep your systems running optimally.",
   "title": "Tips",
+  "heading": "Check the following before calling for service!",
   "items": [
     {
       "title": "General HVAC Issues...",
@@ -20,11 +21,6 @@
       "title": "Saving energy...",
       "content": "A new system can help save on your energy bills. Click below to calculate potential energy savings in your home.",
       "link": "https://www.lennox.com/buyers-guide/tools/energy-savings-calculator"
-    },
-    {
-      "title": "Extending your warranty...",
-      "content": "Register your equipment within 60 days of installation to receive an additional 5 year extended parts warranty.",
-      "link": "/warranty"
     }
   ]
 }

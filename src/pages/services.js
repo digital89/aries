@@ -37,11 +37,22 @@ export default ({ location }) => {
             {items.map(({
               content: serviceItemContent,
               images: serviceItemImages,
+              linkTitle: serviceItemLinkTitle,
+              linkUrl: serviceItemLinkUrl,
               title: serviceItemTitle,
             }, index) => (
               <Fragment key={serviceItemTitle}>
                 <h3 id={`service-${index + 1}`}>{serviceItemTitle}</h3>
                 <p dangerouslySetInnerHTML={{ __html: serviceItemContent }} />
+                {serviceItemLinkTitle && serviceItemLinkUrl && (
+                  <div>
+                    <a href={serviceItemLinkUrl}>
+                      <button className="button is-primary" type="button">
+                        {serviceItemLinkTitle}
+                      </button>
+                    </a>
+                  </div>
+                )}
 
                 {serviceItemImages && (
                   <div className="columns is-multiline is-centered is-mobile service-items">

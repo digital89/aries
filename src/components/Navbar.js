@@ -88,9 +88,6 @@ export default () => {
                 <Link className="navbar-item" to="/tips" activeClassName="navbar-item-active">
                   Tips
                 </Link>
-                <Link className="navbar-item" to="/financing" activeClassName="navbar-item-active">
-                  Financing Options
-                </Link>
                 <a
                   className="navbar-item"
                   href="https://www.lennox.com/buyers-guide/tools/energy-savings-calculator"

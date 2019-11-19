@@ -133,6 +133,7 @@ class Gallery extends PureComponent {
           {`
             .gallery-item {
               border-radius: 4px;
+              cursor: pointer;
               overflow: hidden;
             }
 

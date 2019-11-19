@@ -5,14 +5,34 @@
   "heading": "Check our what some of our customers have to say:",
   "items": [
     {
-      "customer": "Wendy from Red Deer",
+      "content": "Rob was very knowledgeable and professional and the installers were very informative and answered all our questions. We have already recommended Aries Airflo to our friends!",
+      "customer": "Jim & Denise from Innisfail",
+      "date": "October, 2019"
+    },
+    {
+      "content": "The salesman was very helpful and the installers were very knowledgeable and easy to talk to. I'm very happy with their work.",
+      "customer": "Matt from Red Deer",
+      "date": "September, 2019"
+    },
+    {
+      "content": "What else can I say. Rob is awesome! He brings a great deal of knowledge and experience to the field. Honestly, I would not even consider using any other company!",
+      "customer": "Delvin & Heather from Red Deer",
+      "date": "July, 2019"
+    },
+    {
+      "content": "Rob was excellent and Chase, Joel and Dylan were fantastic! I would highly recommend Aries Airflo.",
+      "customer": "Keith from Sundre",
+      "date": "July, 2019"
+    },
+    {
       "content": "Our whole experience with the purchasing and the installation of our air conditioner was great!",
+      "customer": "Wendy from Red Deer",
       "date": "2018"
     },
     {
+      "content": "We were very pleased with the installation of our new central air conditioner.  Aries Airflo Heating’s installation team were amazing.  It was very quick in getting the unit installed and the team that did the installation were very courteous of our home by ensuring protection to our rugs and flooring was done with tarping.  To the team, thank you!  We will definitely be passing our recommendations to all of our family, friends, neighbours and coworkers.  Great Job!",
       "customer": "Gary from Red Deer",
-      "content": "We were very pleased with the installation of our new central air conditioner.  Aries Airflo Heating’s installation team were amazing.  It was very quick in getting the unit installed and the team that did the instsallation were very courteous of our home by ensuring protection to our rugs and flooring was done with tarping.  To the team, thank you!  We will definitely be passing our recommendations to all of our family, friends, neighbours and coworkers.  Great Job!",
-      "date": "May 23, 2018"
+      "date": "2018"
     }
   ]
 }

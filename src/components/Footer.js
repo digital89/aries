@@ -5,6 +5,7 @@ import {
   email,
   facebook,
   fax,
+  googleMaps,
   phone,
   phoneRaw,
 } from '../../cms/general/contact'
@@ -23,9 +24,14 @@ export default () => (
               <div>Tel: <a href={`tel:${phoneRaw}`}>{phone}</a></div>
               <div>Fax: {fax}</div>
               <div>Email: <a href={`mailto:${email}`}>{email}</a></div>
-              <a href={facebook} title="Aries Airflo Facebook" target="_blank" rel="noopener noreferrer">
-                Facebook
-              </a>
+              <div className="footer-social">
+                <a href={facebook} title="Visit Aries Airflo on Facebook" target="_blank" rel="noopener noreferrer">
+                  <img className="footer-social-image" src="/images/facebook_color.svg" alt="Facebook Icon" />
+                </a>
+                <a href={googleMaps} title="Visit Aries Airflo on Google Maps" target="_blank" rel="noopener noreferrer">
+                  <img className="footer-social-image" src="/images/google_color.svg" alt="Google Icon" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="column">
@@ -44,7 +50,7 @@ export default () => (
           <div className="column">
             <h4>VISIT</h4>
             <div className="footer-details">
-              <a href="https://goo.gl/maps/dU1Q7wxGLVS1WU3n7" target="_blank" rel="noopener noreferrer">
+              <a href={googleMaps} target="_blank" rel="noopener noreferrer">
                 <span>{address.street}</span>
                 <br />
                 <span>{address.city}, {address.province}, {address.postcode}</span>
@@ -58,12 +64,6 @@ export default () => (
             <img className="footer-image" src="/images/logo.png" alt="Aries Airflo Logo" />
           </div>
         </div>
-
-        {/* <div className="social">
-          <a href="https://www.facebook.com/ariesairflo/" title="Aries Airflo Facebook" target="_blank" rel="noopener noreferrer">
-            fbicon
-          </a>
-        </div> */}
 
         <div className="credits">
           <span>© Aries Airflo</span>
@@ -99,6 +99,16 @@ export default () => (
 
         .footer-details {
           font-size: 0.86rem;
+        }
+
+        .footer-social {
+          margin-top: 0.5rem;
+        }
+
+        .footer-social-image {
+          height: 25px;
+          margin: 0 4px;
+          width: 25px;
         }
 
         .credits {

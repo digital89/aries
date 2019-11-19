@@ -1,6 +1,7 @@
 import React from 'react'
 
 import {
+  heading,
   items,
   seoDescription,
   seoTitle,
@@ -20,6 +21,10 @@ export default ({ location }) => {
 
           <div className="content">
 
+            <h2>{heading}</h2>
+
+            <br />
+
             {items.map(({
               content: tipContent,
               link: tipLink,
@@ -27,7 +32,7 @@ export default ({ location }) => {
             }) => (
               <div className="card tip" key={tipTitle}>
                 <div className="card-content">
-                  <h2 className="tip-heading">{tipTitle}</h2>
+                  <h3 className="tip-heading">{tipTitle}</h3>
                   <div dangerouslySetInnerHTML={{ __html: tipContent }} />
                   {tipLink && (
                     <div className="tip-link">
