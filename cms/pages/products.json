@@ -1,6 +1,4 @@
 {
-  "seoTitle": "Aries Airflo - Products",
-  "seoDescription": "A detailed list of the products we offer and specific information about each product.",
   "title": "Our Products",
   "heading": "We carry many categories of products:",
   "categories": [
@@ -71,12 +69,6 @@
           "description": "High-efficiency air-conditioner\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 17\nEnergy Star* Qualified",
           "image": "/images/uploads/products_air_conditioners_Lennox_EL16XC1.jpg",
           "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/el16xc1"
-        },
-        {
-          "title": "Lennox XC13\nSINGLE STAGE AIR CONDITIONER​",
-          "description": "Reliable and efficient\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 15.5",
-          "image": "/images/uploads/products_air_conditioners_​​Lennox_XC13.jpg",
-          "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/xc13"
         },
         {
           "title": "​Lennox 13ACX\nSINGLE STAGE AIR CONDITIONER",
