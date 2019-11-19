@@ -230,7 +230,7 @@ collections:
           - { name: "seoDescription", label: "SEO Description", widget: "string" }
           - { name: "title", label: "Title", widget: "string" }
           - { name: "heading", label: "Heading", widget: "string" }
-          - { name: "content", label: "Heading", widget: "text" }
+          - { name: "content", label: "Content", widget: "text" }
 
       - name: "tips"
         label: "Tips"
