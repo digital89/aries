@@ -18,6 +18,12 @@
           "link": "http://www.goodmanmfg.com/pdfviewer.aspx?pdfurl=docs/librariesprovider6/default-document-library/cb-gmvm97496c290022fa6258827eff0500754798.pdf?sfvrsn=94964bc0_2"
         },
         {
+          "title": "Lennox ML296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
+          "description": "Two-stage furnace with variable speed motor\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "image": "/images/uploads/ml296v.png",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml296v"
+        },
+        {
           "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
           "description": "Two-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
           "image": "/images/uploads/products_furnaces_Lennox_EL296V.jpg",
@@ -52,12 +58,6 @@
           "description": "Economical, high-efficiency, single-stage gas furnace\n\nPrice Guide: $\nEfficiency Rating (AFUE): 92",
           "image": "/images/uploads/products_furnaces_​Goodman_GMSS92.jpg",
           "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/92-afue-gmss92"
-        },
-        {
-          "title": "Lennox ML296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
-          "description": "Two-stage furnace with variable speed motor\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
-          "image": "/images/uploads/ml296v.png",
-          "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml296v"
         }
       ]
     },
