@@ -148,16 +148,16 @@
           "link": "https://www.honeywellhome.com/en/products/thermostat"
         },
         {
-          "title": "​Honeywell\nWiFi Thermostat",
-          "description": "Wi-Fi enabled smart thermostat\n\nPrice Guide: $$",
-          "image": "/images/uploads/products_thermostats_Honeywell_WiFi.jpg",
-          "link": "https://www.honeywellhome.com/en/products/thermostat"
-        },
-        {
           "title": "Honeywell T4 Pro",
           "description": "Digital Programmable Thermostat\n",
           "image": "/images/uploads/products_thermostats_honeywell-t4-pro.jpg",
           "link": "https://forwardthinking.honeywellhome.com/products/thermostats/tseries/t4_pro.html"
+        },
+        {
+          "title": "Honeywell T6 Pro WiFi thermostat\n",
+          "description": "WiFi enabled\nDigital programmable",
+          "image": "/images/uploads/products_thermostats_honeywell-t6-pro-wifi.webp",
+          "link": "https://www.honeywellhome.com/T6-Pro-Smart-Thermostat-TH6320WF2003-TH6220WF2006"
         }
       ]
     }
