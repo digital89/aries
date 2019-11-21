@@ -44,33 +44,33 @@
       "items": [
         {
           "title": "​Lennox SL18XC1\nSINGLE-STAGE AIR CONDITIONER",
-          "description": "The quietest and most efficient single-stage air conditioner you can buy*\n\nPrice Guide: $$$\nEfficiency Rating (SEER): Up to 18.5\nEnergy Star* Qualified",
+          "description": "Energy efficient air-conditioner\nEfficiency Rating (SEER): Up to 18.5\nClick \"Learn more\" below for details on the specific features of this air conditioner.\nEnergy Star* Qualified",
           "image": "/images/uploads/products_air_conditioners_​​Lennox_SL18XC1.jpg",
           "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/sl18xc1"
         },
         {
           "title": "Lennox EL16XC1\nHIGH-EFFICIENCY SINGLE-STAGE AIR CONDITIONER​",
-          "description": "High-efficiency air-conditioner\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 17\nEnergy Star* Qualified",
+          "description": "Energy efficient air-conditioner\nEfficiency Rating (SEER): Up to 17\nClick \"Learn more\" below for details on the specific features of this air conditioner.\nEnergy Star* Qualified",
           "image": "/images/uploads/products_air_conditioners_Lennox_EL16XC1.jpg",
           "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/el16xc1"
         },
         {
           "title": "​Lennox 13ACX\nSINGLE STAGE AIR CONDITIONER",
-          "description": "Reliable and efficient\n\nPrice Guide: $\nEfficiency Rating (SEER): Up to 13",
+          "description": "Energy efficient air-conditioner\nEfficiency Rating (SEER): 13\nClick \"Learn more\" below for details on the specific features of this air conditioner.",
           "image": "/images/uploads/products_air_conditioners_​​​Lennox_13ACX.jpg",
           "link": "https://www.lennox.com/products/heating-cooling/air-conditioners/13acx"
         },
         {
-          "title": "Goodman GSX14\nSINGLE-STAGE AIR CONDITIONER​",
-          "description": "Energy efficient air-conditioner\n\nPrice Guide: $\nEfficiency Rating (SEER): Up to 14",
-          "image": "/images/uploads/products_air_conditioners_Goodman_GSX14.jpg",
-          "link": "http://www.goodmanmfg.com/products/air-conditioners/14-seer-gsx14"
+          "title": "​Goodman GSX16\nSINGLE-STAGE AIR CONDITIONER",
+          "description": "Energy efficient air-conditioner\nEfficiency Rating (SEER): Up to 16\nClick \"Learn more\" below for details on the specific features of this air conditioner.",
+          "image": "/images/uploads/products_air_conditioners_Goodman_GSX16.jpg",
+          "link": "https://www.goodmanmfg.com/products/air-conditioners/16-seer-gsx16"
         },
         {
-          "title": "​Goodman GSX16\nSINGLE-STAGE AIR CONDITIONER",
-          "description": "Energy efficient air-conditioner\n\nPrice Guide: $$\nEfficiency Rating (SEER): Up to 16\nEnergy Star* Qualified",
-          "image": "/images/uploads/products_air_conditioners_Goodman_GSX16.jpg",
-          "link": "http://www.goodmanmfg.com/products/air-conditioners/16-seer-gsx16"
+          "title": "Goodman GSX13\nSINGLE-STAGE AIR CONDITIONER​",
+          "description": "Energy efficient air-conditioner\nEfficiency Rating (SEER): Up to 14\nClick \"Learn more\" below for details on the specific features of this air conditioner.",
+          "image": "/images/uploads/products_air_conditioners_Goodman_GSX14.jpg",
+          "link": "https://www.goodmanmfg.com/products/air-conditioners/13-seer-gsx13"
         }
       ]
     },
@@ -79,25 +79,19 @@
       "items": [
         {
           "title": "Lennox\nPCO3 PURE AIR PURIFICATION SYSTEM​",
-          "description": "Protection from allergens, airborne bacteria and chemicals and odours\n\nPrice Guide: $$$",
+          "description": "Removes 99.9% of all particles like pollen, dust and pet dander.\nOnly system to combat all 3 types of indoor air pollutants.\nClick \"learn more\" below to see all the features of the PureAir.\n\n",
           "image": "/images/uploads/products_air_quality_Lennox_PCO3.jpg",
           "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/pureair"
         },
         {
-          "title": "Lennox\n​HEALTHY CLIMATE 16 MEDIA AIR CLEANERS",
-          "description": "Removes more than 95% of allergens\n\nPrice Guide: $",
-          "image": "/images/uploads/products_air_quality_Lennox_Healthy_Climate_16.jpg",
-          "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/carbonclean16"
-        },
-        {
           "title": "​Lennox\nHEALTHY CLIMATE 11 MEDIA AIR CLEANERS",
-          "description": "Removes more than 85% of allergens\n\nPrice Guide: $",
+          "description": "Removes more than 85% of allergens\n​HEALTHY CLIMATE HC11 (MERV Filter Rack)\nEffective Box media filter\n",
           "image": "/images/uploads/products_air_quality_Lennox_Healthy_Climate_11.jpg",
           "link": "https://www.lennox.com/products/indoor-air-quality/air-purification/hc11"
         },
         {
           "title": "General Filters\n1042 HUMIDIFIER​",
-          "description": "Humidity control for comfort, health & protection\n\nPrice Guide: $$",
+          "description": "Humidity control for comfort, health & protection\n",
           "image": "/images/uploads/products_air_quality_General_1042.jpg",
           "link": "http://www.generalfilters.com/products/humidifiers/legacy-series-humidifiers/Model-1042LH-_PT12.html"
         }
@@ -108,7 +102,7 @@
       "items": [
         {
           "title": "Reznor\nUNIT HEATERS ",
-          "description": "83% Thermal efficiency\n45,000, 60,000 and 75,000 BTU units ",
+          "description": "83% Thermal efficiency\nCompact for maximum head space\nQuiet operation\n",
           "image": "/images/uploads/products_garage_heaters_Reznor.jpg",
           "link": "https://www.reznorhvac.com/all-products/unit-heaters/"
         }
