@@ -70,7 +70,7 @@ collections:
             fields:
               - { name: "title", label: "Title", widget: "string" }
               - { name: "content", label: "Content", widget: "text" }
-              - { name: "image", label: "Image", widget: "image" }
+              - { name: "image", label: "Image", widget: "image", required: false }
 
   - name: "pages"
     label: "Pages"
@@ -145,8 +145,8 @@ collections:
             fields:
               - { name: "title", label: "Title", widget: "string" }
               - { name: "content", label: "Content", widget: "text" }
-              - { name: "linkTitle", label: "Link Title", widget: "string" }
-              - { name: "linkUrl", label: "Link URL", widget: "string" }
+              - { name: "linkTitle", label: "Link Title", widget: "string", required: false }
+              - { name: "linkUrl", label: "Link URL", widget: "string", required: false }
               - name: "images"
                 label: "Images"
                 label_singular: "Image"
@@ -178,7 +178,7 @@ collections:
                   - { name: "title", label: "Title", widget: "text" }
                   - { name: "description", label: "Description", widget: "text" }
                   - { name: "image", label: "Image", widget: "image" }
-                  - { name: "link", label: "Link", widget: "string", optional: true }
+                  - { name: "link", label: "Link", widget: "string", required: false }
 
       - name: "contact"
         label: "Contact"
@@ -204,7 +204,7 @@ collections:
             fields:
               - { name: "content", label: "Content", widget: "text" }
               - { name: "customer", label: "Customer", widget: "string" }
-              - { name: "date", label: "Date", widget: "string" }
+              - { name: "date", label: "Date", widget: "string", required: false }
 
       - name: "review"
         label: "Review"
@@ -247,6 +247,7 @@ collections:
             fields:
               - { name: "title", label: "Tip Title", widget: "string" }
               - { name: "content", label: "Tip Content", widget: "text" }
+              - { name: "link", label: "Tip Link", widget: "string", required: false }
 
       - name: "gallery"
         label: "Gallery"

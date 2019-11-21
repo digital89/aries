@@ -54,7 +54,7 @@ export default ({ location }) => {
                   </div>
                 )}
 
-                {serviceItemImages && (
+                {serviceItemImages && serviceItemImages.length && (
                   <div className="columns is-multiline is-centered is-mobile service-items">
                     {serviceItemImages.map(({
                       image: serviceItemImageSrc,
