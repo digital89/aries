@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import classNames from 'classnames'
 
 import brandItems from '../../cms/general/brands'
@@ -36,9 +37,9 @@ export default ({ location }) => {
               </h2>
               <div>
                 <div className="buttons hero-cta">
-                  <a href="/contact" className="button is-large">
+                  <Link className="button is-large" to="/contact">
                     <strong>{callToAction}</strong>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
