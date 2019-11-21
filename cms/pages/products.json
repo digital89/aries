@@ -8,28 +8,16 @@
       "name": "Furnaces",
       "items": [
         {
-          "title": "Lennox SLP98V\nMODULATING GAS FURNACE",
-          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98.7\nEnergy Star* Qualified",
-          "image": "/images/uploads/products_furnaces_Lennox_SLP98V.jpg",
-          "link": "https://www.lennox.com/products/heating-cooling/furnaces/slp98v"
-        },
-        {
-          "title": "Goodman GMVM97\nMODULATING GAS FURNACE ",
-          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$$\nEfficiency Rating (AFUE): 98\nEnergy Star* Qualified",
-          "image": "/images/uploads/products_furnaces_Goodman_GMVM97.jpg",
-          "link": "http://www.goodmanmfg.com/pdfviewer.aspx?pdfurl=docs/librariesprovider6/default-document-library/cb-gmvm97496c290022fa6258827eff0500754798.pdf?sfvrsn=94964bc0_2"
+          "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
+          "description": "The EL296V uses a variable speed motor that reduces electrical use by two-thirds, compared to a standard motor. Plus, two stages of heating minimize temperature swings, so homeowners can save on utility bills without sacrificing comfort.\n- Efficiency rating of 96% AFUE—can save your customers hundreds of dollars each year*, compared to standard furnaces\n- ENERGY STAR® qualified—meets or exceeds EPA guidelines for energy efficiency\n- Variable speed blower motor—provides a quiet, consistent flow of air for enhanced comfort, efficiency and humidity control\n- SilentComfort™ Technology—delivers the ultimate in quiet, consistent heating\n- Special sound-absorbing insulation—further reduces sound for quiet operation.\n",
+          "image": "/images/uploads/products_furnaces_Lennox_EL296V.jpg",
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/el296v"
         },
         {
           "title": "Lennox ML296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
-          "description": "Two-stage furnace with variable speed motor\n\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
+          "description": "The Merit ML296V highly efficient, variable speed furnace is designed with a smaller cabinet height which makes it easier to fit in varying spaces. Variable speed fan and two stages of gas combine to provide a higher level of comfort; the variable speed fan provides greater humidity control, gives more consistent airflow and reduces hot and cold spots. With two-stage gas valve and 96 AFUE, homeowners will see long-term cost savings. Thoroughly tested to be reliable and durable, this Merit series product delivers long-lasting comfort. ",
           "image": "/images/uploads/products_furnaces_lennox_ml296v.png",
           "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml296v"
-        },
-        {
-          "title": "Lennox EL296V\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
-          "description": "Two-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
-          "image": "/images/uploads/products_furnaces_Lennox_EL296V.jpg",
-          "link": "https://www.lennox.com/products/heating-cooling/furnaces/el296v"
         },
         {
           "title": "Goodman GMVC96\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
@@ -38,28 +26,10 @@
           "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/96-afue-gmvc96"
         },
         {
-          "title": "Lennox EL195XE\nHIGH-EFFICIENCY GAS FURNACE​",
-          "description": "Single-stage furnace with Power Saver™ technology\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 95\nEnergy Star* Qualified ",
-          "image": "/images/uploads/products_furnaces_Lennox_EL195XE.jpg",
-          "link": "https://www.lennox.com/products/heating-cooling/furnaces/el195e"
-        },
-        {
-          "title": "Goodman GMEC96\nHIGH-EFFICIENCY TWO-STAGE GAS FURNACE​",
-          "description": "High-efficiency, multi speed gas furnace\n\nPrice Guide: $$\nEfficiency Rating (AFUE): 96\nEnergy Star* Qualified",
-          "image": "/images/uploads/products_furnaces_Goodman_GMEC96.jpg",
-          "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/96-afue-gmec96"
-        },
-        {
-          "title": "Lennox ML193\nHIGH-EFFICIENCY GAS FURNACE​",
-          "description": "Economical, high-efficiency single-stage gas furnace\n\nPrice Guide: $\nEfficiency Rating (AFUE): 93",
+          "title": "Lennox ML196E \nHIGH-EFFICIENCY SINGLE STAGE GAS FURNACE",
+          "description": "Single-stage Gas Furnace with Power Saver™ Technology\n\nThe Power Saver™ constant torque motor design uses less energy in both heating and cooling modes, helping homeowners save on utility bills. Flexible airflow based on a home's ductwork makes the ML196E 33% more efficient than older PSC motors, while also delivering high gas efficiency with the 96% AFUE.\n",
           "image": "/images/uploads/products_furnaces_Lennox_ML193.jpg",
-          "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml193"
-        },
-        {
-          "title": "​Goodman GMSS92\nHIGH-EFFICIENCY GAS FURNACE",
-          "description": "Economical, high-efficiency, single-stage gas furnace\n\nPrice Guide: $\nEfficiency Rating (AFUE): 92",
-          "image": "/images/uploads/products_furnaces_​Goodman_GMSS92.jpg",
-          "link": "http://www.goodmanmfg.com/products/gas-furnaces/90-afue-gas-furnaces/92-afue-gmss92"
+          "link": "https://www.lennox.com/products/heating-cooling/furnaces/ml196e"
         }
       ]
     },
