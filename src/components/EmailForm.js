@@ -70,14 +70,12 @@ class EmailForm extends PureComponent {
       try {
         await this.setStateAsync({ loading: true })
 
-        const emailToSendTo = 'jared+ariestest@digital89.com'
-        // const emailToSendTo = ariesEmailAddress;
-        await axios.post('https://digital89.com/.netlify/functions/email', {
+        await axios.post('https://digital89.com/api/email', {
           from: { email: 'mail@digital89.com', name: 'ariesairflo.com' },
           replyTo: { email: formEmail, name: formName },
           subject: formSubject || `A message from ${formName}`,
           text: `${formMessage}\n\n----------\n\nName: ${formName}\nEmail: ${formEmail}`,
-          to: [{ email: emailToSendTo, name: 'Aries Airflo' }],
+          to: [{ email: ariesEmailAddress, name: 'Aries Airflo' }],
         })
 
         await this.setStateAsync({
