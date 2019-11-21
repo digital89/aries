@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import classNames from 'classnames'
 
-import brandItems from '../../cms/general/brands'
-import promotionItems from '../../cms/general/promotions'
+import { items as brands } from '../../cms/general/brands'
+import { items as promotions } from '../../cms/general/promotions'
 import {
   brandsHeading,
   callToAction,
@@ -47,12 +47,12 @@ export default ({ location }) => {
         </div>
       </section>
 
-      {promotionItems && promotionItems.length && (
+      {promotions && promotions.length && (
         <section className="section">
           <div className="container">
             <div className="content">
 
-              {promotionItems.map(({
+              {promotions.map(({
                 content: promotionItemContent,
                 image: promotionItemImageSrc,
                 title: promotionItemTitle,
@@ -94,7 +94,7 @@ export default ({ location }) => {
             <h3>{brandsHeading}</h3>
             <br />
             <div className="columns is-multiline is-centered is-mobile">
-              {brandItems.map(({
+              {brands.map(({
                 name: brandItemName,
                 image: brandItemImageSrc,
                 link: brandItemLink,

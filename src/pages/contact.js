@@ -9,7 +9,7 @@ import {
   phone,
   phoneRaw,
 } from '../../cms/general/contact'
-import hours from '../../cms/general/hours'
+import { items as hours } from '../../cms/general/hours'
 import {
   seoDescription,
   seoTitle,

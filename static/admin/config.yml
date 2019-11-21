@@ -15,18 +15,6 @@ collections:
     editor:
       preview: false
     files:
-      - name: "hours"
-        label: "Hours"
-        file: "cms/general/hours.json"
-        fields:
-          - name: "hours"
-            label: "Hours"
-            label_singular: "Hour"
-            widget: "list"
-            fields:
-              - { name: "days", label: "Day(s)", widget: "string" }
-              - { name: "times", label: "Time(s)", widget: "string" }
-
       - name: "contact"
         label: "Contact"
         file: "cms/general/contact.json"
@@ -45,6 +33,18 @@ collections:
               - { name: "postcode", label: "Postal Code", widget: "string" }
           - { name: "facebook", label: "Facebook URL", widget: "string" }
           - { name: "googleMaps", label: "Google Maps URL", widget: "string" }
+
+      - name: "hours"
+        label: "Hours"
+        file: "cms/general/hours.json"
+        fields:
+          - name: "items"
+            label: "Hours"
+            label_singular: "Hour"
+            widget: "list"
+            fields:
+              - { name: "days", label: "Day(s)", widget: "string" }
+              - { name: "times", label: "Time(s)", widget: "string" }
 
       - name: "brands"
         label: "Brands"

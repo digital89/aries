@@ -1,14 +1,16 @@
-[
-  {
-    "days": "Mon-Thu",
-    "times": "8am-5pm"
-  },
-  {
-    "days": "Fri",
-    "times": "8am-4:30pm"
-  },
-  {
-    "days": "Sat-Sun",
-    "times": "Closed"
-  }
-]
+{
+  "items": [
+    {
+      "days": "Mon-Thu",
+      "times": "8am-5pm"
+    },
+    {
+      "days": "Fri",
+      "times": "8am-4:30pm"
+    },
+    {
+      "days": "Sat-Sun",
+      "times": "Closed"
+    }
+  ]
+}
