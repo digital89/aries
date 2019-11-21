@@ -61,7 +61,7 @@ collections:
 
       - name: "promotions"
         label: "Promotions"
-        file: "cms/general/hours.json"
+        file: "cms/general/promotions.json"
         fields:
           - name: "items"
             label: "Promotions"
