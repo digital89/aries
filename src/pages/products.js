@@ -39,7 +39,7 @@ export default ({ location }) => {
               <Fragment key={categoryName}>
                 <h3 id={`product-${index + 1}`}>{categoryName}</h3>
 
-                <div className="columns is-multiline is-centered">
+                <div className="columns is-multiline">
                   {categoryItems.map(({
                     title: categoryItemTitle,
                     description: categoryItemDescription,
