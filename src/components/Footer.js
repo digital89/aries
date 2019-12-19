@@ -19,7 +19,7 @@ export default () => (
 
         <div className="columns is-multiline footer-columns">
           <div className="column">
-            <h4>CONNECT</h4>
+            <h4>CONTACT</h4>
             <div className="footer-details">
               <div>Tel: <a href={`tel:${phoneRaw}`}>{phone}</a></div>
               <div>Fax: {fax}</div>
