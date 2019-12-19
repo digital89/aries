@@ -91,6 +91,31 @@ export default ({ location }) => {
         <div className="container">
           <div className="content">
 
+            <div className="columns is-multiline is-centered is-mobile">
+              <div className="column">
+                <div>
+                  <Link className="button is-large is-primary is-fullwidth" to="/services">
+                    <strong>VIEW OUR SERVICES</strong>
+                  </Link>
+                </div>
+              </div>
+              <div className="column">
+                <div>
+                  <Link className="button is-large is-primary is-fullwidth" to="/products">
+                    <strong>VIEW OUR PRODUCTS</strong>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="content">
+
             <h3>{brandsHeading}</h3>
             <br />
             <div className="columns is-multiline is-centered is-mobile">
