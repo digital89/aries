@@ -15,18 +15,10 @@
     "axios": "0.19.0",
     "bulma": "0.7.5",
     "classnames": "2.2.6",
-    "gatsby": "2.4.2",
-    "gatsby-plugin-netlify-cms": "4.1.22",
-    "gatsby-plugin-react-helmet": "3.0.12",
-    "gatsby-plugin-sass": "2.1.17",
-    "gatsby-plugin-styled-jsx": "3.0.5",
     "macy": "2.5.0",
-    "netlify-cms-app": "2.9.7",
-    "node-sass": "4.12.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.0",
-    "styled-jsx": "3.2.1",
     "validator": "10.9.0"
   },
   "devDependencies": {
@@ -36,7 +28,15 @@
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-react": "7.12.4",
+    "gatsby": "2.4.2",
+    "gatsby-plugin-force-trailing-slashes": "1.0.4",
+    "gatsby-plugin-netlify-cms": "4.1.22",
+    "gatsby-plugin-react-helmet": "3.0.12",
+    "gatsby-plugin-sass": "2.1.17",
+    "gatsby-plugin-styled-jsx": "3.0.5",
     "glob": "7.1.6",
-    "jimp": "0.8.5"
+    "jimp": "0.8.5",
+    "node-sass": "4.12.0",
+    "styled-jsx": "3.2.1"
   }
 }
