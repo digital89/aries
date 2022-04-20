@@ -1,11 +1,7 @@
 {
   "items": [
     {
-      "days": "Mon-Thu",
-      "times": "8am-4:30pm"
-    },
-    {
-      "days": "Fri",
+      "days": "Mon-Fri",
       "times": "8am-4:30pm"
     },
     {
