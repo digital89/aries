@@ -16,7 +16,6 @@ import {
   subtitle,
   title,
 } from '../../cms/pages/contact'
-import EmailForm from '../components/EmailForm'
 import Layout from '../components/Layout'
 
 export default ({ location }) => {
@@ -60,7 +59,7 @@ export default ({ location }) => {
 
           <div className="columns">
 
-            <div className="column">
+            <div className="column is-one-third">
               <div><b>Address:</b></div>
               <div>
                 <a href={googleMaps} target="_blank" rel="noopener noreferrer">
@@ -97,31 +96,23 @@ export default ({ location }) => {
             </div>
 
             <div className="column">
-              <EmailForm />
+              <iframe
+                allowFullScreen
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+                scrolling="no"
+                src="https://maps.google.com/maps?q=aries%20airflo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                style={{
+                  border: 'none',
+                  height: '300px',
+                  width: '100%',
+                }}
+                title="Google Maps View"
+              />
             </div>
 
           </div>
-
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-
-          <iframe
-            allowFullScreen
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
-            scrolling="no"
-            src="https://maps.google.com/maps?q=aries%20airflo&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            style={{
-              border: 'none',
-              height: '300px',
-              width: '100%',
-            }}
-            title="Google Maps View"
-          />
 
         </div>
       </section>
