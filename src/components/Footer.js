@@ -66,16 +66,7 @@ export default () => (
         </div>
 
         <div className="credits">
-          <span>© Aries Airflo</span>
-          <span> - </span>
-          <a
-            href="https://digital89.com"
-            title="Website by Digital89"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Website by <strong>Digital89</strong>
-          </a>
+          <span>© Aries Airflo, {(new Date()).getFullYear()}</span>
         </div>
 
       </div>
