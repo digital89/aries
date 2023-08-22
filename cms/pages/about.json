@@ -13,31 +13,25 @@
     },
     {
       "name": "Rob Schiltz",
-      "position": "Retrofit Sales",
+      "position": "General Manager",
       "email": "rob@ariesairflo.com",
       "image": "/images/uploads/about_rob_schiltz.jpg"
     },
     {
       "name": "Will Vugts",
-      "position": "Residential New Construction",
+      "position": "Residential New Construction Manager",
       "email": "will@ariesairflo.com",
       "image": "/images/uploads/about_will_vugts.jpg"
     },
     {
-      "name": "Kevin Erickson",
-      "position": "Service Manager",
-      "email": "kevin@ariesairflo.com",
-      "image": "/images/uploads/about_kevin_erickson.jpg"
-    },
-    {
       "name": "Terry Codd",
-      "position": "Owner/Manager",
+      "position": "Commercial Operations Manager",
       "email": "terry@ariesairflo.com",
       "image": "/images/uploads/about_terry_codd.jpg"
     },
     {
       "name": "Linda Codd",
-      "position": "Owner/Office Manager",
+      "position": "Assistant Office Manager",
       "email": "linda@ariesairflo.com",
       "image": "/images/uploads/about_linda_codd.jpg"
     }
