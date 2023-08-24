@@ -9,31 +9,55 @@
       "name": "Scott Grant",
       "position": "Commercial Estimator",
       "email": "scott@ariesairflo.com",
-      "image": "/images/uploads/about_scott_grant.jpg"
+      "image": "/images/uploads/3.png"
     },
     {
       "name": "Rob Schiltz",
       "position": "General Manager",
       "email": "rob@ariesairflo.com",
-      "image": "/images/uploads/about_rob_schiltz.jpg"
+      "image": "/images/uploads/4.png"
     },
     {
       "name": "Will Vugts",
       "position": "Residential New Construction Manager",
       "email": "will@ariesairflo.com",
-      "image": "/images/uploads/about_will_vugts.jpg"
+      "image": "/images/uploads/6.png"
     },
     {
       "name": "Terry Codd",
       "position": "Commercial Operations Manager",
       "email": "terry@ariesairflo.com",
-      "image": "/images/uploads/about_terry_codd.jpg"
+      "image": "/images/uploads/9.png"
     },
     {
       "name": "Linda Codd",
       "position": "Assistant Office Manager",
       "email": "linda@ariesairflo.com",
-      "image": "/images/uploads/about_linda_codd.jpg"
+      "image": "/images/uploads/1.png"
+    },
+    {
+      "name": "Nicole Gervais",
+      "position": "Administrator",
+      "email": "nicole@ariesairflo.com",
+      "image": "/images/uploads/5.png"
+    },
+    {
+      "name": "Chase Walper ",
+      "position": "Retrofit Sales",
+      "email": "Chase@ariesairflo.com",
+      "image": "/images/uploads/7.png"
+    },
+    {
+      "name": "Shirlene Peever",
+      "position": "Office Manager",
+      "email": "shirlene@ariesairflo.com",
+      "image": "/images/uploads/9.png"
+    },
+    {
+      "name": "Meghan Cummings",
+      "position": "Service Coordinator/Administrator",
+      "email": "Meghan@ariesairflo.com",
+      "image": "/images/uploads/2.png"
     }
   ],
   "peopleHeading": "Our People",
